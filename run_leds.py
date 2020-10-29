@@ -1,11 +1,6 @@
 import glob
 import sys
 
-import LedSpectrum1
-import LedSpectrum2
-import LedSpectrum3
-import LedScroll1
-import LedScroll2
 import LedScroll3
 import LedPowerScroll
 
@@ -33,7 +28,7 @@ def main(code_directory=".", light_style='default'):
     #     print("Running LED Lighting - Style: Scroll 3")
     #     LedScroll3.main()
     else:
-        print("Running LED Lighting - Style: Default (Power)")
+        print("Running LED Lighting - Style: Default (Scroll 3)")
         return LedScroll3.main(code_directory)
 
 if __name__ == '__main__':

@@ -4,6 +4,7 @@ import subprocess
 from threading import Thread
 
 import convert
+import order_playlists
 
 def download_playlist(link):
     thread = Thread(target=download_playlist_from_link, args=(link,))
@@ -34,6 +35,8 @@ def download_playlist_from_link(link):
 
     os.remove('{}/{}'.format(directory, song_list))
     os.rmdir(directory)
+
+    order_playlists.main()
     print("Playlist download complete")
 
 if __name__ == '__main__':

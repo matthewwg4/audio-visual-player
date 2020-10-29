@@ -1,1311 +1,557 @@
-YBN Nahmir - Rubbin off the Paint
-Eminem - Stan
-Chelsea Cutler - Deathbed
-6LACK - Switch
-Lil Uzi Vert - Bean (Kobe) [feat Chief Keef]
-Jeremy Zucker - supercuts
-Wiz Khalifa - Roll Up
-Martin Garrix - In the Name of Love - DallasK Remix
-Big Sean - I Dont Fuck With You
-Dynoro - In My Mind
-Fitz and The Tantrums - HandClap
-Lil Baby - Sum 2 Prove
-Tory Lanez - Who Needs Love
-Rex Orange County - Untitled
-Kanye West - Wouldnt Leave
-Young Thug - Relationship (feat Future)
-Papithbk - Savage Mode
-Snow Patrol - Chasing Cars
-Childish Gambino - Sober
-Usher - DJ Got Us Fallin In Love
-Kim Wilde - Kids In America
-The Script - Breakeven
-Childish Gambino - Algorhythm
-Waka Flocka Flame - No Hands (feat Roscoe Dash & Wale)
-Post Malone - Sunflower - Spider-Man Into the Spider-Verse
-Never Shout Never - Jane Doe
-Macklemore & Ryan Lewis - Cant Hold Us - feat Ray Dalton
-The Chainsmokers - Paris
-AAP Rocky - Praise The Lord (Da Shine) (feat Skepta)
-Lil Uzi Vert - Homecoming
-Clean Bandit - Rockabye (feat Sean Paul & Anne-Marie)
-Charli XCX - Boom Clap
-Phillip Phillips - Home
-J Balvin - Mi Gente
-Sheck Wes - Mo Bamba
-DVBBS - Pyramids - Radio Mix
-Drake - Controlla
-Kesha - Your Love Is My Drug
-The White Stripes - Were Going To Be Friends
-JACKBOYS - OUT WEST (feat Young Thug)
-Chelsea Cutler - Out of Focus
-Owl City - Fireflies
-Lil Uzi Vert - Ps & Qs
-Arizona Zervas - ROXANNE
-A Great Big World - Say Something
-Vampire Weekend - We Belong Together (feat Danielle Haim)
-Marshmello - Alone
-YNW Melly - 223s (feat 9lokknine)
-Chelsea Cutler - Evil
-Kodak Black - ZEZE (feat Travis Scott & Offset)
-Marshmello - Silence
-Kygo - Higher Love
-John Mayer - Im Gonna Find Another You
-Chelsea Cutler - Hell
-Natasha Bedingfield - Unwritten
-Sia - Genius (feat Sia Diplo and Labrinth) - Lil Wayne Remix
-Kanye West - Father Stretch My Hands Pt 1
-David Guetta - Sexy Bitch (feat Akon)
-3OH3 - DONTTRUSTME
-Mabel - Dont Call Me Up
-Joyner Lucas - Isis
-Rihanna - We Found Love
-Phoebe Bridgers - I See You
-DaBaby - Suge
-Alessia Cara - Scars To Your Beautiful
-Dynoro - In My Mind
-Justin Bieber - Eenie Meenie
-Waka Flocka Flame - No Hands (feat Roscoe Dash & Wale)
-Drake - After Dark (feat Static Major & Ty Dolla ign)
-The Rolling Stones - Out Of Time - Strings Version
-Eric Hutchinson - Oh
-Soulja Boy - Crank That (Soulja Boy)
-Otis Redding - (Sittin On) the Dock of the Bay
-Sigala - Came Here for Love
-Logic - The Jam
-OutKast - Roses
-Ariana Grande - Side To Side
-Leslie Odom Jr - Dear Theodosia
-Khalid - OTW
-Fifth Harmony - Worth It (feat Kid Ink)
-Future - Mask Off
-Lizzo - Truth Hurts
-A Boogie Wit da Hoodie - Voices in My Head
-Jaypitts - Wasabi
-Lil Mama - Lip Gloss
-Kanye West - Lift Yourself
-Loud Luxury - Body
-Tyga - Do My Dance
-Jeremy Zucker - always ill care
-Childish Gambino - Redbone
-Drake - Gods Plan
-Lil Baby - Time (feat Meek Mill)
-Childish Gambino - 5349
-Justin Bieber - Sorry
-Kanye West - Barry Bonds
-Kstylis - Booty Me Down
-Chris Brown - Look At Me Now (feat Lil Wayne & Busta Rhymes)
-Aminé - Beach Boy
-YNW Melly - Murder On My Mind
-cupcakKe - Cumshot
-Icona Pop - I Love It (feat Charli XCX) - Original Version
-Train - Drive By
-Chris Brown - New Flame (feat Usher & Rick Ross)
-Meek Mill - Going Bad (feat Drake)
-Young Thug - Hot (feat Gunna)
-AAP Rocky - 1Train (feat Kendrick Lamar Joey Bada Yelawolf Danny Brown Action Bronson & Big KRIT)
-Nelly Furtado - Promiscuous
-Cosmo Jarvis - Gay Pirates
+Logic - 44 Bars
+Mac Miller - Self Care
+Shawn Mendes - Like To Be You (feat Julia Michaels)
 Jack Harlow - WHATS POPPIN
-XXXTENTACION - Moonlight
-Drake - Elevate
-J-Kwon - Tipsy - Club Mix
-Sia - Genius (feat Sia Diplo and Labrinth) - Lil Wayne Remix
-Lil Wayne - Lollipop
-DaBaby - VIBEZ
-Ed Sheeran - The A Team
-James Blake - Vincent
-Logic - One Day (ft Ryan Tedder)
-Ed Sheeran - 1000 Nights (feat Meek Mill & A Boogie Wit da Hoodie)
-Jeremy Zucker - better off
-Zedd - Stay
 Mac Miller - Hand Me Downs
-Taio Cruz - Hangover
-Papithbk - Blue and Yellow (Freestyle)
-Gym Class Heroes - Ass Back Home (feat Neon Hitch)
-Calvin Harris - We Found Love (feat Rihanna)
-Drake - One Dance
-Rihanna - We Found Love
-Red Hot Chili Peppers - Under the Bridge
-Bright Eyes - First Day Of My Life
-Migos - Stir Fry
-The Weeknd - Starboy
-Beyoncé - Crazy In Love (feat Jay-Z)
-JP Saxe - 3 Minutes
-iann dior - Prospect (ft Lil Baby)
-Moneybagg Yo - All Dat (with Megan Thee Stallion)
-Pusha T - New God Flow
-Marshmello - Happier
-Jason Derulo - Swalla (feat Nicki Minaj & Ty Dolla ign)
-Train - Drops of Jupiter (Tell Me)
-Jeremy Zucker - you were good to me
-The Script - Superheroes
-Calvin Harris - Rollin (feat Future & Khalid)
-Kanye West - Lost In The World
-Meek Mill - Litty (feat Tory Lanez)
-Mac Miller - Matches (feat Ab-Soul)
-Shawn Mendes - Señorita
-Aminé - Slide
-XXXTENTACION - Look At Me
-Coldplay - Viva La Vida
-BlocBoy JB - Look Alive (feat Drake)
-Blueface - Obama (feat DaBaby)
-Chelsea Cutler - Sixteen
-Avicii - Levels
-Papithbk - AMV
-Frank Ocean - Nights
-JAY-Z - Otis
-blackbear - hot girl bummer
-DaBaby - BOP
-Kanye West - Pt 2
-Morningsiders - Somewhere In Between
-Travis Scott - HIGHEST IN THE ROOM
-Pitbull - Hotel Room Service
-The Beatles - Let It Be - Naked Version - Remastered 2013
-Ace Hood - Bugatti
-Kanye West - Stronger
-The Crew Cuts - Sh Boom (Life Could Be a Dream)
-Ariana Grande - The Way
-BoB - HeadBand (feat 2 Chainz)
-Lil Tecca - Shots
-Declan McKenna - Brazil
-BØRNS - Electric Love
-Post Malone - Takin Shots
-DaBaby - PICK UP (feat Quavo)
-Nicki Minaj - Anaconda
-Aminé - Caroline
-Lil Pump - Boss
-Lou Bega - Mambo No 5 (A Little Bit of)
-Jeremih - The Light
-Rupert Holmes - Escape (The Pina Colada Song)
-David Guetta - Titanium (feat Sia)
-Rex Orange County - Loving Is Easy
+Willie Nelson - It Should Be Easier Now
+Travis Scott - 3500 (feat Future & 2 Chainz)
+Don Blaine - Three Nights
+Blues Traveler - Run-Around
+James Bay - Peer Pressure
+Chelsea Cutler - Wake Up
+Khalid - Better
 The Weeknd - Call Out My Name
-Migos - Narcos
-Vampire Weekend - A-Punk
-MAGIC - Rude
-Pitbull - Hotel Room Service
-Phoebe Bridgers - Motion Sickness
-Axwell -- Ingrosso - More Than You Know
-Kanye West - Cant Tell Me Nothing
-Lil Yachty - Yacht Club (feat Juice WRLD)
-Nicki Minaj - Starships
-Childish Gambino - 1238 (feat 21 Savage Ink & Kadhja Bonet)
-6LACK - Pretty Little Fears (feat J Cole)
-Post Malone - Congratulations
-Keri Hilson - Pretty Girl Rock
-Britney Spears - Baby One More Time
-Kanye West - The Glory
-Hermans Hermits - Theres A Kind Of Hush
-Kanye West - Monster
-Kanye West - Good Morning
-Fiona Apple - Across the Universe
-Skrillex - Scary Monsters and Nice Sprites
-Lil Uzi Vert - Chrome Heart Tags
-Kesha - TiK ToK
-Lil Uzi Vert - Money Spread (feat Young Nudy)
-The Chainsmokers - Paris
-Justin Bieber - The Feeling
-2milly - Milly Rock
-Glass Animals - Tokyo Drifting (with Denzel Curry)
-Drake - Cant Take A Joke
-Kanye West - Follow God
-Gotye - Somebody That I Used To Know
-24kGoldn - CITY OF ANGELS - LLusion Funk Remix
-Arizona Zervas - ROXANNE
-Alexander 23 - Mars
-T-Pain - Booty Wurk (One Cheek At a Time) (feat Joey Galaxy)
-David Guetta - Turn Me On (feat Nicki Minaj)
-Flobots - Handlebars
-Travis Scott - SICKO MODE
-Avicii - Levels - Radio Edit
-The Chainsmokers - Paris
-Bahamas - No Depression
-Martin Garrix - In the Name of Love - DallasK Remix
-Rihanna - Umbrella
-Icona Pop - I Love It (feat Charli XCX)
-Hot Chelle Rae - Tonight Tonight
-Alex Newell - Kill The Lights (with Nile Rodgers) - Audien Remix
-Kesha - Blow
-Kanye West - Wolves
-Gazzo - What You Waiting For
-The Chainsmokers - Closer
-Sia - Genius (feat Sia Diplo and Labrinth) - Lil Wayne Remix
-Martin Jensen - Somebody Im Not
-Jeremih - Dont Tell Em
-Jon Bellion - All Time Low
-50 Cent - Candy Shop
-Nelly Furtado - Promiscuous
-Bryce Vine - Take Me Home
+Julia Michaels - 17
+Lil Dicky - Professional Rapper (feat Snoop Dogg)
+French Montana - Writing on the Wall (feat Post Malone & Cardi B)
+Bryce Vine - Drew Barrymore
+Train - Marry Me
+Elton John - Tiny Dancer
+Lil Wayne - President Carter
+OutKast - Roses
+Don McLean - American Pie
+Avicii - Levels
+The Chainsmokers - The One
+Carolina Liar - Show Me What Im Looking For
+Lauv - Theres No Way (feat Julia Michaels)
+Taylor Swift - cardigan
+Juice WRLD - Titanic
+Powfu - death bed (coffee for your head)
+Stevie Wonder - Signed Sealed Delivered (Im Yours)
+J Cole - January 28th
+MKTO - Classic
+Logic - Flexicution
+Rupert Holmes - Escape (The Pina Colada Song)
+Alexander 23 - Dirty AF1s
+Chelsea Cutler - The Reason
+Olivia OBrien - Josslyn
+Papithbk - Hard It All Can Be
+John Mayer - Slow Dancing in a Burning Room
+NiSPLASH - Something 2 Believe In
+FLETCHER - All Love
+Tal Bachman - Shes so High
+John Mayer - Bold as Love
+Otis Redding - (Sittin On) the Dock of the Bay
+Lostboycrow - Santa Fe
+Shawn Mendes - Lost In Japan
+JP Saxe - If the World Was Ending - feat Julia Michaels
+J Cole - She Knows (feat Amber Coffman & Cults)
+Kid Cudi - Day n Nite
+Logic - Slave II
+6LACK - Switch
+Joyner Lucas - Isis
+Train - Drops of Jupiter (Tell Me)
+Scotty Sire - Notice Me
+Powfu - I Cant Sleep
+Maroon 5 - Sugar
+The Killers - Mr Brightside
+James Taylor - Carolina in My Mind
+Matt Nathanson - Come On Get Higher
+Drake Bell - I Found A Way
+Papithbk - AMV
 Rae Sremmurd - Come Get Her
-50 Cent - In Da Club
-Bruno Mars - Thats What I Like
-Jack Harlow - WHATS POPPIN
-Aminé - Hero
-Adele - Someone Like You
-Jason Derulo - Whatcha Say
-Berlin - Take My Breath Away
-Jonas Blue - Rise
-Kanye West - Gold Digger
-Galantis - Runaway (U & I)
-Fuse ODG - Boa Me (feat Ed Sheeran & Mugeez)
-Train - Drive By
-Adele - Hello
-Drake - Chicago Freestyle (feat Giveon)
-Taylor Swift - Love Story
-Kelly Clarkson - Since U Been Gone
-Mac Miller - Weekend (feat Miguel)
-Machine Gun Kelly - Bad Things (with Camila Cabello)
-Lil Wayne - I Do It (ft Big Sean Lil Baby)
-Camille - Le Festin
-Flipboitamidles - All Our Little Talks
-Ra Ra Riot - Water
-Kanye West - Welcome To Heartbreak
-Ellie Goulding - Close To Me (with Diplo) (feat Swae Lee)
-BROCKHAMPTON - BOOGIE
-Klaus Badelt - Hes a Pirate
-MEDUZA - Piece Of Your Heart - Alok Remix
-Childish Gambino - 3531
-Sir Mix-A-Lot - Baby Got Back
-Travis Scott - first take
-Galantis - Love on Me
+Logic - Alright
+Alec Benjamin - Let Me Down Slowly
+Khalid - Talk
+Snow Patrol - Chasing Cars
+Logic - The Incredible True Story
+Billy Joel - Vienna
+Shallou - Lie
+Travis Scott - SICKO MODE
+Papithbk - MJ
+XXXTENTACION - Look At Me
+Red Hot Chili Peppers - Under the Bridge
+Blueface - Thotiana
+Big Boi - All Night
+Tiagz - They Call Me Tiago (Her Name Is Margo)
+JAY-Z - Gotta Have It
+Big Sean - Blessings
+Diplo - Welcome to the Party (with French Montana & Lil Pump feat Zhavia Ward) - from Deadpool 2
+ayokay - Queen (feat Quinn XCII)
+benny blanco - Eastside (with Halsey & Khalid)
+Mac Miller - Matches (feat Ab-Soul)
+Sarah McLachlan - When She Loved Me
+Childish Gambino - 3005
+Beyoncé - Love On Top
+Future - Life Is Good (feat Drake)
+Ingrid Michaelson - The Chain
+Childish Gambino - Heartbeat
+Khalid - OTW
+Post Malone - Die For Me (feat Future & Halsey)
+Drake - Portland
+Post Malone - Same Bitches (feat G-Eazy & YG)
+Hoodie Allen - No Faith in Brooklyn (feat Jhameel)
+Scotty Sire - Breakfast In the Park
+G-Eazy - Calm Down
+Talking Heads - Psycho Killer - 2005 Remaster
+The Lumineers - Life In The City
+Charli XCX - Boom Clap
+John Denver - Take Me Home Country Roads
+24kGoldn - VALENTINO
+Owl City - Fireflies
+Alexander 23 - Mars
+Lil Wayne - A Milli
+Metro Boomin - Space Cadet (feat Gunna)
+KBFR - Hood Baby
+Jeremy Zucker - comethru
+YBN Nahmir - 2 Seater (feat G-Eazy & Offset)
+Claire Rosinkranz - Backyard Boy
+Rex Orange County - 10-10
+The Lumineers - Sleep On The Floor
+Neil Diamond - Sweet Caroline
+Justin Bieber - The Feeling
+AAP Rocky - Praise The Lord (Da Shine) (feat Skepta)
+James Blake - Life Round Here
+Julia Michaels - Hurt Again
+Taylor Swift - betty
+JP Saxe - Explain You
+James Bay - Wasted On Each Other
+Curtis Waters - Stunnin (feat Harm Franklin)
+Post Malone - Sunflower - Spider-Man Into the Spider-Verse
+Jeremy Zucker - you were good to me
+Eminem - Mockingbird
+Logic - ICONIC (ft Jaden Smith)
+Toby Keith - Red Solo Cup
+Jeremy Zucker - always ill care
+Meghan Trainor - Like Im Gonna Lose You (feat John Legend)
+Post Malone - 92 Explorer
+Papithbk - Blue and Yellow (Freestyle)
+Jeremy Zucker - supercuts
+Papithbk - Sad Nibba Hours
+Chris Brown - New Flame (feat Usher & Rick Ross)
+Sam Smith - Pray
+XXXTENTACION - Jocelyn Flores
+G-Eazy - Marilyn (feat Dominique Le Jeune)
+The Lumineers - Flapper Girl
+Fousheé - Deep End
+John Mayer - Dreaming with a Broken Heart
+Good Morning Club - Clara
+Chelsea Cutler - Hell
+James Taylor - How Sweet It Is (To Be Loved By You) - 2019 Remaster
+Pnk - Hurts 2B Human (feat Khalid)
+John Mayer - Im Gonna Find Another You
+Bahamas - No Depression
+Papithbk - Losing Intrest
+Bon Iver - Lump Sum
+Brain - How Can U Sleep (feat Lil Dicky & The Game)
+Logic - Growing Pains III
+Sia - Genius (feat Sia Diplo and Labrinth) - Lil Wayne Remix
+Lil Pump - Gucci Gang
+Lionel Richie - Hello
+Kanye West - Amazing
+Frank Ocean - Pink  White
+Khalid - Outta My Head (with John Mayer)
+Drake - Views
 Lady Gaga - Shallow
 Chelsea Cutler - Youre Not Missing Me
-Rihanna - Pour It Up
-Neon Trees - Everybody Talks
-Otis Redding - My Girl
-Jeremy Zucker - oh mexico
-NiSPLASH - Something 2 Believe In
-Jawsh 685 - Savage Love (Laxed - Siren Beat)
-JP Saxe - Explain You
-Bon Iver - Skinny Love
-6ix9ine - FEFE
-Beyoncé - Love On Top
-Panic At The Disco - Dont Threaten Me with a Good Time
-Bea Miller - like that
-Jaypitts - Intro to Hollywood
-Taylor Swift - You Belong With Me
-Deorro - Five More Hours - Deorro x Chris Brown
-Nancy Adams - Love
-Shallou - Older
-Camila Cabello - Consequences
-Ed Sheeran - Dont
-Julia Michaels - Happy
-Drake - Madiba Riddim
-Post Malone - Leave
-The Lumineers - Flowers in Your Hair
-JAY-Z - Holy Grail
-Jax Jones - All Day And Night
-John Mayer - Dreaming with a Broken Heart
-JP Saxe - If the World Was Ending - feat Julia Michaels
-Ariana Grande - Break Your Heart Right Back
-Sammy Adams - All Night Longer
-Ingrid Michaelson - The Chain
-Rihanna - SOS
-Kanye West - Closed On Sunday
-Ed Sheeran - Dive
-Wiz Khalifa - See You Again (feat Charlie Puth)
-O-Zone - Dragostea Din Tei
-Drake - The Motto
-Ayo & Teo - Rolex
-Kanye West - POWER
-Dr Fresch - Feedback (feat Mina Knock)
-Bassjackers - Derp
-Childish Gambino - 3005
-Alex Newell - Kill The Lights (with Nile Rodgers) - Audien Remix
-G-Eazy - You Got Me
-Juicy J - Bandz A Make Her Dance (feat Lil Wayne & 2 Chainz)
-bbno - shining on my ex
-Dua Lipa - Levitating
-DJ ESCO - Too Much Sauce (feat Future & Lil Uzi Vert)
-Kendrick Lamar - Swimming Pools (Drank)
-Steve Aoki - Turbulence (feat Lil Jon) - Radio Edit
-Justin Bieber - Intentions
-AAP Ferg - Plain Jane REMIX (feat Nicki Minaj)
-The Pussycat Dolls - When I Grow Up
-A Boogie Wit da Hoodie - Swervin (feat 6ix9ine)
-Kanye West - Mercy
-Travis Scott - HIGHEST IN THE ROOM
-Jack Johnson - Sunsets For Somebody Else
-Beyoncé - 7-11
-The Kid LAROI - GO (feat Juice WRLD)
-La Roux - Bulletproof
-The Killers - Mr Brightside
-Sam Smith - Pray
-Lit - My Own Worst Enemy
-Rae Sremmurd - Powerglide (feat Juicy J) - From SR3MM
-Olivia OBrien - Almost In Love
-Lil Uzi Vert - The Way Life Goes (feat Oh Wonder)
-Aminé - Dakota
-Ananya Birla - Livin The Life - Afrojack Remix
-Post Malone - Same Bitches (feat G-Eazy & YG)
-The Lumineers - Gloria
-Brian Nagotko - Romeo
-Madd - Games
-Bobby Helms - Jingle Bell Rock
-G-Eazy - No Limit
-Ed Sheeran - Happier
-Eric Hutchinson - Rock & Roll
-Kanye West - Blame Game
-Sage The Gemini - Gas Pedal
-Two Friends - Just A Kid (feat Kevin Writer)
-Why Dont We - What Am I
-James Bay - Peer Pressure
-Shallou - Lie
-Hoodie Allen - No Faith in Brooklyn (feat Jhameel)
-Lupe Fiasco - The Show Goes On
-Lana Del Rey - Summertime Sadness (Lana Del Rey Vs Cedric Gervais) - Cedric Gervais Remix
-Future - Fine China
-Alan Walker - All Falls Down (feat Juliander)
-Bazzi - Myself
-Lil Uzi Vert - Baby Pluto
-Machine Gun Kelly - Trap Paris (feat Quavo & Ty Dolla ign)
-21 Savage - a lot
-James Blake - Barefoot In The Park
-JAY-Z - No Church In The Wild
-Alesso - Heroes (we could be)
-Drake - Money In The Grave (Drake ft Rick Ross)
-Drake - Legend
-Drake - Passionfruit
-XXXTENTACION - Moonlight
-Scotty Sire - My Life Sucks
-Enrique Iglesias - Bailando - Spanish Version
-Drake - Nonstop
-Pitbull - Time of Our Lives
-6ix9ine - KOODA
-Curtis Waters - Stunnin (feat Harm Franklin)
-Ruel - Painkiller
-Zedd - Clarity
-Migos - Hannah Montana
-Young Thug - High (feat Elton John)
-Don Blaine - Three Nights
-Lemaitre - Not Too Late
-Riff Raff - Tip Toe Wing In My Jawwwdinz
-Tory Lanez - Stupid Again
-Flo Rida - Low (feat T-Pain)
-Cobra Starship - Good Girls Go Bad (feat Leighton Meester)
-James Blake - Life Round Here
-Chelsea Cutler - The Human Condition
-MKTO - Classic
-Calvin Harris - Slide (feat Frank Ocean & Migos)
-Kanye West - Gold Digger
-Gryffin - Just For A Moment (feat Iselin)
-J Cole - Fire Squad
-5 Seconds of Summer - Youngblood
-Katy Perry - I Kissed A Girl
-Tiagz - They Call Me Tiago (Her Name Is Margo)
-Big Sean - Dance (A) Remix
-Sean Kingston - Fire Burning
-J-Kwon - Tipsy - Club Mix
-J Cole - A Tale of 2 Citiez
-Calvin Harris - This Is What You Came For (feat Rihanna)
-Mike Posner - I Took A Pill In Ibiza - Seeb Remix
-Cardi B - Be Careful
-Aminé - Turf
-Jay Sean - Down
-Boney M - Rasputin
-Jason Derulo - Wiggle (feat Snoop Dogg)
-Kanye West - POWER
-The Lumineers - Dead Sea
-DaBaby - FIND MY WAY
-Nicki Minaj - Starships
-Dreamville - Under The Sun (with J Cole & Lute feat DaBaby)
-Jason Mraz - Im Yours
-Britney Spears - Toxic - Remastered
-Liam Payne - Strip That Down
-Otto Knows - Million Voices
-Post Malone - Paranoid
-Lauv - Theres No Way (feat Julia Michaels)
-Jeezy - My President
-Drake - Gyalchester
-Drake - 8 Out Of 10
-Tiësto - Red Lights
-2 Chainz - Big Amount
-Drake - All Me
-KBFR - Hood Baby
-twoloud - Greatest DJ - Original Mix
-Dionne Warwick - Thats What Friends Are For (with Elton John Gladys Knight & Stevie Wonder)
-Young the Giant - Cough Syrup
-Chance the Rapper - Same Drugs
-XXXTENTACION - Moonlight
-Kanye West - Violent Crimes
-P-Lo - same squad
-The Band CAMINO - Crying Over You
-Sarah McLachlan - When She Loved Me
-benny blanco - Eastside (with Halsey & Khalid)
-Julia Michaels - Deep
-Yellow Claw - In My Room (feat Ty Dolla ign & Tyga)
-Huncho Jack - Dubai Shit
-Billy Crystal - If I Didnt Have You
-Rihanna - FourFiveSeconds
-Spice Girls - Wannabe
-Nicki Minaj - Super Bass
-Travis Scott - Upper Echelon (feat TI & 2 Chainz)
-Dan  Shay - 10000 Hours (with Justin Bieber)
-Billy Ocean - Suddenly
-Train - Drops of Jupiter (Tell Me)
-Lionel Richie - Hello
-Chelsea Cutler - Somebody Else Will Get Your Eyes
-Kanye West - Homecoming
-070 Shake - Morrow
-Willie Nelson - It Should Be Easier Now
-Dua Lipa - IDGAF
-Kanye West - Every Hour
-Ellie Goulding - Lights - Single Version
-Kanye West - All Mine
-Gunna - Speed It Up
-Post Malone - Die For Me (feat Future & Halsey)
-Mustard - Pure Water (with Migos)
-Lil Uzi Vert - Silly Watch
-Big Boi - All Night
-Train - Hey Soul Sister
-Owl City - Fireflies
-Gary Portnoy - Where Everybody Knows Your Name (Cheers Theme)
-Macklemore & Ryan Lewis - Cant Hold Us - feat Ray Dalton
-J Cole - KOD
-Luis Fonsi - Despacito - Major Lazer & MOSKA Remix
-Avicii - Without You (feat Sandro Cavazza)
-Kodak Black - Codeine Dreaming (feat Lil Wayne)
-Bryce Vine - La La Land - Acoustic
-John Legend - Penthouse Floor (feat Chance the Rapper)
-Team Twin - We Get Turnt Up
-Calvin Harris - How Deep Is Your Love - Chris Lake Remix
-Aminé - Caroline
-The Weeknd - Cant Feel My Face
-Kesha - Blah Blah Blah (feat 3OH3)
-David Guetta - Without You (feat Usher)
-Huey - Pop Lock & Drop It
-RL Grime - UCLA
-Pitbull - Timber (feat Keha)
-Vampire Weekend - Hannah Hunt
-Lil Uzi Vert - XO TOUR Llif3
-KIDS SEE GHOSTS - 4th Dimension
-Saib - Café
-Kanye West - Street Lights
-Chris Brown - Yeah 3x
-Drake - Summer Sixteen
-Aminé - Money
-Shakira - Hips Dont Lie (feat Wyclef Jean)
-J Cole - She Knows (feat Amber Coffman & Cults)
-Taylor Swift - Love Story
-Big Sean - No Favors
-Neon Trees - 1983
-A Boogie Wit da Hoodie - Love Drugs and Sex
-Taylor Swift - Dear John
-Lil Uzi Vert - You Better Move
-David Guetta - Where Them Girls At (feat Nicki Minaj & Flo Rida)
-Mac Miller - Blue World
-Luis Fonsi - Despacito (Featuring Daddy Yankee)
-Papithbk - Losing Intrest
-Lil Pump - Gucci Gang
-Lil Yachty - Yacht Club (feat Juice WRLD)
-Don Toliver - After Party
-Estelle - American Boy
-Dillon Francis - Not Butter
-Mabel - Dont Call Me Up - R3HAB Remix
-G-Eazy - Forbes
-French Montana - Writing on the Wall (feat Post Malone & Cardi B)
-Gucci Mane - At Least a M
-Black Eyed Peas - I Gotta Feeling
-Black Eyed Peas - My Humps
-Kanye West - All Falls Down
-Kanye West - Father Stretch My Hands Pt 1
-Kendrick Lamar - mAAd city
-PnB Rock - Stand Back
-tobi lou - hot tub DREAM Machine
-Kanye West - Wolves
-James Taylor - Carolina in My Mind
-Rae Sremmurd - This Could Be Us
-Chelsea Cutler - Snow In October
-Taylor Swift - mad woman
-21 Savage - Ghostface Killers
-BØRNS - Electric Love
-Meghan Trainor - Like Im Gonna Lose You (feat John Legend)
-French Montana - No Stylist (feat Drake)
-Travis Scott - SICKO MODE
-The Carters - APESHIT
-Miley Cyrus - Party In The USA
-Quinn XCII - Flare Guns
-Sean Kingston - Beautiful Girls
-Post Malone - Spoil My Night (feat Swae Lee)
-Lil Baby - Pure Cocaine
-Major Lazer - Lean On
-Lil Uzi Vert - Got The Guap (feat Young Thug)
-Future - Life Is Good (feat Drake)
-Logic - Alright
-Mike Posner - Cooler Than Me (feat Big Sean)
-Kanye West - Black Skinhead
-Rae Sremmurd - Powerglide (feat Juicy J) - From SR3MM
-BoB - Magic (feat Rivers Cuomo)
-Post Malone - Stay
-Soulja Boy - Kiss Me Thru The Phone
-Juice WRLD - Lucid Dreams
-Logic - Never Been
-G Herbo - PTSD
-Travis Scott - goosebumps
-MAGIC - Rude
-Alec Benjamin - Boy In The Bubble
-Don Toliver - After Party
-DNCE - Cake By The Ocean
-Tyga - Rack City
-Ben Folds - Bitches Aint Shit
-RL Grime - UCLA
-La Roux - Bulletproof
-Lou Bega - Mambo No 5 (a Little Bit of)
-Justin Bieber - Love Yourself
-Kanye West - I Love It (& Lil Pump)
-Deorro - Five More Hours - Deorro x Chris Brown
-Camila Cabello - My Oh My (feat DaBaby)
-Aminé - Caroline
-Vampire Weekend - Walcott
-Vampire Weekend - This Life
-Willie Nelson - Buddy
-Lil Wayne - A Milli
-Chance the Rapper - All Night (feat Knox Fortune)
-Social House - Magic In The Hamptons (feat Lil Yachty)
-Logic - Bounce
-KYLE - iSpy (feat Lil Yachty)
-YG - My Nigga
-Desiigner - Panda
-Papithbk - WHY AM I Waiting
-Lil Uzi Vert - P2
-Pitbull - Give Me Everything (feat Ne-Yo Afrojack & Nayer)
-DaBaby - BOP
-ispy
-Kid Cudi - Day n Nite
-Modest Mouse - Float On
-Metro Boomin - Space Cadet (feat Gunna)
-Ed Sheeran - Barcelona
-The Weeknd - I Feel It Coming
-Kanye West - Saint Pablo
-Pnk - Hurts 2B Human (feat Khalid)
-James Bay - Need The Sun To Break - The Dark Of The Morning Version
-Juice WRLD - Robbery
-Lil Uzi Vert - Bust Me
-OutKast - Hey Ya - Radio Mix
-Kanye West - Dark Fantasy
-Julia Michaels - 17
-Akon - Smack That
-Tones And I - Dance Monkey
-Fozzie - Movin Right Along - From The Muppet Movie-Soundtrack Version
-Ed Sheeran - Dont
-DJ Khaled - Wild Thoughts
-Two Friends - Emily
-JAY-Z - Nias In Paris
-Drake - Hotline Bling
-Travis Scott - HOUSTONFORNICATION
-J Cole - January 28th
-Logic - Dont Be Afraid To Be Different (feat Will Smith)
-Scotty Sire - Notice Me
-A-Trak - Out The Speakers (feat Rich Kidz) - Caked Up Remix
-Sam Feldt - Post Malone (feat RANI)
-Danny Brown - Grown Up
-Flume - Say It (feat Tove Lo)
-Dua Lipa - Dont Start Now
-SAINt JHN - Roses - Imanbek Remix
-Lil Uzi Vert - No Auto (feat Lil Durk)
-Cardi B - Ring (feat Kehlani)
-Drake - Views
-Julia Michaels - Issues
-Big Sean - Sacrifices
-James Bay - Move Together - The Dark Of The Morning Version
-Drake - One Dance
-Post Malone - Up There
-Martin Solveig - Intoxicated - Radio Edit
-YK Osiris - Worth It
-Cascada - Everytime We Touch
-Post Malone - Better Now
-Louis Armstrong - La vie en rose - Single Version
-Louis The Child - Better Not (with Wafia)
-Justin Timberlake - Mirrors
-Childish Gambino - Bonfire
-R Kelly - Ignition - Remix
-Zac Brown Band - Loving You Easy
-Logic - Slave II
-The Chainsmokers - Something Just Like This
-Ed Sheeran - Antisocial (with Travis Scott)
-Ellie Goulding - Close To Me (with Diplo) (feat Swae Lee)
-Kungs - This Girl (Kungs Vs Cookin On 3 Burners)
-Mac Miller - Self Care
-Calvin Harris - Lets Go (feat Ne-Yo)
-The Lumineers - Sleep On The Floor
-Alec Benjamin - Let Me Down Slowly
-Taylor Swift - Mean
-French Montana - Unforgettable
-Lil Dicky - Truman
-Cascada - Everytime We Touch
-Sigala - Sweet Lovin - Radio Edit
-Ciara - Goodies (feat Petey Pablo)
-Portugal The Man - Feel It Still - Gryffin Remix
-Pitbull - International Love (feat Chris Brown)
-Owl City - When Can I See You Again - From Wreck-It Ralph-Soundtrack Version
-Blueface - Thotiana
-Future - Wicked
-Maroon 5 - Maps
-Meek Mill - Going Bad (feat Drake)
-Kanye West - Heartless
-Post Malone - 92 Explorer
-Lizzo - Juice
-Rixton - Me And My Broken Heart
-Jeremy Zucker - scared
-Sia - Genius (feat Sia Diplo and Labrinth) - Lil Wayne Remix
-Tai Verdes - Stuck in the Middle
-Matt Nathanson - Come On Get Higher
-fun - Carry On
-Frank Ocean - Pink  White
-Vampire Weekend - Cape Cod Kwassa Kwassa
-John Legend - Sin City - Album Version (Edited)
-Far East Movement - Like A G6
-Lil Uzi Vert - Yessirskiii
-Willie Nelson - Cruel World
-Chelsea Cutler - please
-T-Wayne - Nasty Freestyle
-Aminé - Heebiejeebies - Bonus
-The Chainsmokers - The One
-Lil Wayne - Believe Me
-C2C - Down The Road
-The Chainsmokers - You Owe Me
-Jack Harlow - WHATS POPPIN (feat DaBaby Tory Lanez & Lil Wayne) - Remix
-Post Malone - Zack And Codeine
-Childish Gambino - 3005
-Travis Scott - CAROUSEL
-Major Lazer - Bubble Butt (feat Bruno Mars 2 Chainz Tyga & Mystic) - Radio Mix
-Young Nut - I Dont Eat Ass
-Lil Uzi Vert - Im Sorry
-Huncho Jack - Modern Slavery
-The Chainsmokers - Call You Mine
-blackbear - do re mi
-ScHoolboy Q - THat Part
-Lenny Kravitz - Are You Gonna Go My Way
-Migos - Bad and Boujee (feat Lil Uzi Vert)
-Two Friends - Take It Off
-The Chainsmokers - Call You Mine
-John Mayer - Bold as Love
-Insane Clown Posse - Chop Chop Slide
-Silk City - Electricity (with Dua Lipa)
-Maxo Kream - Mars (feat Lil Uzi Vert)
-Drake - Ice Melts
-Waka Flocka Flame - No Hands (feat Roscoe Dash & Wale)
-JACKBOYS - OUT WEST (feat Young Thug)
-Jay Rock - Kings Dead (with Kendrick Lamar Future & James Blake)
-JAY-Z - Murder To Excellence
-Drake - Pop Style
-John Mayer - Slow Dancing in a Burning Room
-Alexandra Stan - Mr Saxobeat - Radio Edit
-AAP Rocky - Praise The Lord (Da Shine) (feat Skepta)
-Post Malone - Sunflower - Spider-Man Into the Spider-Verse
-Aminé - Yellow
-Coldplay - Viva La Vida
-Future - Life Is Good (feat Drake)
-Comethazine - Walk
-DaBaby - Gorilla Glue
-ayokay - The Shine (feat Chelsea Cutler)
-Galantis - Spaceship (feat Uffie)
-Shelley FKA DRAM - Broccoli
-Olivia OBrien - Josslyn
-Rob tone - Chill Bill REMIX (feat DRAM Denzel Curry & Cousin Stizz)
-Lil Jon - Bend Ova (feat Tyga)
-Taylor Swift - betty
-Jawsh 685 - Savage Love (Laxed - Siren Beat)
-MIA - Paper Planes
-Kanye West - Use This Gospel
-Drake - Portland
-Lush & Simon - Th3 0ne
-Lil Uzi Vert - I Can Show You
-Electric Light Orchestra - Mr Blue Sky
-Kanye West - Love Lockdown
-Drake - Passionfruit
-Earl Sweatshirt - Chum
-Train - Marry Me
-Calvin Harris - Summer
-Owl City - Good Time
-Bryce Vine - Drew Barrymore
-Lil Uzi Vert - Urgency (feat Syd)
-Drake - Money In The Grave (Drake ft Rick Ross)
-JP Saxe - Sad Corny Fuck
-Leon Bridges - Forgive You
-Gavin DeGraw - Not Over You
-The Temptations - My Girl
-Drake - Energy
-Kanye West - Bad News
-Lil Dicky - Who Knew
-Gwen Stefani - Hollaback Girl
-Halsey - Gasoline
-NERD - Lemon - Edit
-YBN Nahmir - 2 Seater (feat G-Eazy & Offset)
-Rascal Flatts - Life is a Highway
-Drake - Sacrifices
-Icona Pop - Emergency
-Lil Uzi Vert - Wassup (feat Future)
-Post Malone - Take What You Want (feat Ozzy Osbourne & Travis Scott)
-The Script - Hall of Fame (feat william)
-Travis Scott - goosebumps
-Lostboycrow - Santa Fe
-Capital Cities - Safe And Sound
-Olivia OBrien - Josslyn
-Dizzee Rascal - Bonkers
-Drake - Toosie Slide
-The Chainsmokers - Something Just Like This
-Macklemore & Ryan Lewis - Thrift Shop (feat Wanz)
-Rod Wave - Rags2Riches (feat ATR Son Son)
-Olivia OBrien - Tequilawine
-Lil Dicky - Professional Rapper (feat Snoop Dogg)
-NOTD - So Close
-Fetty Wap - 679 (feat Remy Boyz)
-uicideBoy - Paris
-Taylor Swift - exile (feat Bon Iver)
-Mr Probz - Waves - Robin Schulz Radio Edit
-Bahamas - Way With Words
-David Guetta - Where Them Girls At (feat Nicki Minaj & Flo Rida)
-Rihanna - S&M
-Joy Oladokun - sunday
-Logic - Lord Willin
-The Strumbellas - Spirits
-Kanye West - Cold
-Major Lazer - Light It Up - Remix
-Khalid - Better
-Nico & Vinz - Am I Wrong
-Lil Uzi Vert - 7AM
-M83 - Midnight City
-Far East Movement - Like A G6
-Avicii - Levels - Radio Edit
-DJ Khaled - POPSTAR (feat Drake)
-The Killers - Mr Brightside
-Jason Derulo - Swalla (feat Nicki Minaj & Ty Dolla ign)
-My Chemical Romance - Welcome to the Black Parade
-Hot Chelle Rae - I Like It Like That (feat New Boyz)
-Lil Dicky - Bruh
-Khalid - Outta My Head (with John Mayer)
-Julia Michaels - Hurt Again
-The Chainsmokers - Bloodstream
-G-Eazy - Marilyn (feat Dominique Le Jeune)
-Travis Scott - 3500 (feat Future & 2 Chainz)
-J Cole - No Role Modelz
-Alexander 23 - High School
-Rae Sremmurd - Swang
-Mako - Smoke Filled Room
-Future - 100 Shooters (feat Meek Mill)
-Chris Brown - Yeah 3x
-Katy Perry - Teenage Dream
-The Lumineers - Flapper Girl
-Hardwell - Spaceman - Carnage Festival Trap Remix
-ayokay - Queen (feat Quinn XCII)
-Don McLean - Empty Chairs
-Jason Derulo - Tip Toe (feat French Montana)
-Mac Miller - Knock Knock
-Childish Gambino - This Is America
-DJ Snake - Taki Taki (feat Selena Gomez Ozuna & Cardi B)
-Taylor Swift - Youre Not Sorry
-Drake - Best I Ever Had
-Kanye West - Hell Of A Life
-Chance the Rapper - All Night (feat Knox Fortune)
-Chance the Rapper - All Night (feat Knox Fortune)
-DJ Snake - Let Me Love You
-The Chainsmokers - My Type (feat Emily Warren)
-Taylor Swift - Forever & Always
-Major Lazer - Cold Water
-The Wanted - Glad You Came
-Grouplove - Tongue Tied
-MKTO - Classic
-Cobra Starship - You Make Me Feel (feat Sabi)
-Playboi Carti - Shoota (feat Lil Uzi Vert)
-Kendrick Lamar - Poetic Justice
-5 Seconds of Summer - She Looks So Perfect
-DJ Jazzy Jeff & The Fresh Prince - The Fresh Prince of Bel-Air
-Lil Uzi Vert - Leaders (feat NAV)
-Wes Walker - Jordan Belfort
-Kanye West - Amazing
-Lil Uzi Vert - The Way Life Goes (feat Oh Wonder)
-Michael Giacchino - Married Life
-Post Malone - Im Gonna Be
-Brain - How Can U Sleep (feat Lil Dicky & The Game)
-dj Shawny - Little Einsteins Tangin Song
-Ariana Grande - Love Me Harder
-Doja Cat - Say So
-Panic At The Disco - Dont Threaten Me with a Good Time
-Alexander 23 - Dirty AF1s
-Edward Maya - Stereo Love - Original
-BlocBoy JB - Look Alive (feat Drake)
-Travis Scott - BUTTERFLY EFFECT
-Drake - Fake Love
-Rihanna - Bitch Better Have My Money
-Lil Wayne - How To Love
-Polo G - Relentless
-Loud Luxury - Body
-Taylor Swift - Hey Stephen
-Drake - Do Not Disturb
-DaBaby - ROCKSTAR (feat Roddy Ricch)
-Kidz Bop Kids - Truth Hurts
-Portugal The Man - Feel It Still
-6LACK - Let Her Go
-Aminé - Blinds
-Ingrid Michaelson - The Way I Am
-Jaden - Icon
-Lil Uzi Vert - Sanguine Paradise
-Aminé - Wedding Crashers
-Childish Gambino - Heartbeat
-Taylor Swift - Back To December
-Kanye West - Bound 2
-Inner Circle - Bad Boys (Theme from COPS)
-Avicii - Wake Me Up
-Powfu - death bed (coffee for your head)
-Ingrid Michaelson - You and I
-Aminé - Spice Girl
-Cash Cash - Take Me Home (feat Bebe Rexha)
-Beyoncé - Drunk in Love (feat Jay-Z)
-Maroon 5 - Sugar
-Phoebe Bridgers - I Know The End
-NLE Choppa - Walk Em Down (feat Roddy Ricch)
-Vampire Weekend - Unbelievers
-Alec Benjamin - If We Have Each Other
-Cascada - Evacuate the Dancefloor - Radio Edit
-Famous Dex - JAPAN
-Miguel - Sky Walker (feat Travis Scott)
-Lulleaux - On The Go
-Regard - Ride It
-Vampire Weekend - Jerusalem New York Berlin
-Nicki Minaj - Truffle Butter
-OneRepublic - Good Life
-Halsey - Without Me
-Post Malone - Rich & Sad
-The Chainsmokers - Dont Let Me Down (feat Daya)
-Captain Ahab - Girls Gone Wild
-Sean Kingston - Fire Burning
-Kygo - It Aint Me (with Selena Gomez)
-Rex Orange County - 10-10
-Alec Benjamin - Steve
-DaBaby - TOES (feat Lil Baby & Moneybagg Yo)
-Tiësto - Red Lights
-Aminé - Campfire
-Simon & Garfunkel - A Hazy Shade of Winter
-Justin Bieber - Boyfriend
-Jaypitts - Quentin Quarantino
-Travis Scott - ASTROTHUNDER
-Lil Uzi Vert - Venetia
-Roddy Ricch - Tip Toe (feat A Boogie Wit da Hoodie)
-Old Dominion - One Man Band
-Rex Orange County - Sunflower
-Logic - Im Gone
-Don McLean - Vincent
-Kanye West - Gorgeous
-Jennifer Lopez - On The Floor
-Elton John - Tiny Dancer
-MKTO - Classic
-MisterWives - Our Own House
-Neil Diamond - Sweet Caroline
-Kevin Abstract - Empty
-LMFAO - Shots
-Childish Gambino - Bonfire
-Chelsea Cutler - The Reason
-Toby Keith - Red Solo Cup
-Logic - The Incredible True Story
-Big Boi - All Night
-G-Eazy - Calm Down
-Kanye West - Coldest Winter
-LMFAO - Party Rock Anthem
-Travis Scott - goosebumps
-Migos - Walk It Talk It
-BoB - So Good
-Playboi Carti - Magnolia
-Flo Rida - Club Cant Handle Me (feat David Guetta)
-Post Malone - I Fall Apart
-Jason Derulo - Swalla (feat Nicki Minaj & Ty Dolla ign)
-Herve Pagez - Spicy - with Diplo & Charli XCX
-Skrillex - Kyoto (feat Sirah)
-XXXTENTACION - SAD
-Lil Wayne - Uproar
-Julia Michaels - Priest
-Tal Bachman - Shes so High
-Lil Tecca - Ransom
-Cardi B - Bodak Yellow
-Katy Perry - Last Friday Night (TGIF)
-Kendrick Lamar - DNA
-Offset - Ric Flair Drip (& Metro Boomin)
-Robin Thicke - Blurred Lines
-Calvin Harris - Slide (feat Frank Ocean & Migos)
-Drake - Cant Have Everything
-Scotty Sire - Take Me Away
-Kevin Rudolf - Let It Rock
-Jimmy Eat World - The Middle
-Logic - Stainless
-Young Nut - Who This
-Ava Max - Sweet but Psycho
-Talking Heads - Psycho Killer - 2005 Remaster
-Papithbk - MJ
-NexXthursday - Sway (feat Quavo & Lil Yachty)
-The Foundations - Build Me Up Buttercup
-Mac Miller - Matches (feat Ab-Soul)
-Claire Rosinkranz - Backyard Boy
-Martin Garrix - Forbidden Voices
-Ariana Grande - pete davidson
-Yeah Yeah Yeahs - Heads Will Roll - A-Trak Remix
-Still Woozy - Goodie Bag
-MKTO - Classic
-Train - Hey Soul Sister
-Pop Smoke - Dior (with Gunna) - Remix
-Maroon 5 - Payphone
-office-music
-Daniel Powter - Bad Day
-Kanye West - Gold Digger
-Travis Scott - STARGAZING
-Justin Bieber - Beauty And A Beat
-Sean Paul - Get Busy
-Dillon Francis - Get Low
-Lorde - Perfect Places
-Papithbk - Hard It All Can Be
-XXXTENTACION - Jocelyn Flores
-Powfu - I Cant Sleep
-Kanye West - Good Life
-Duck Sauce - Barbra Streisand
-Donnie Trumpet & The Social Experiment - Sunday Candy
-Chelsea Cutler - Giving Up Ground (feat Quinn XCII)
-The Wanted - Glad You Came
-Kendrick Lamar - DNA
-Estelle - American Boy (feat Kanye West)
-Rex Orange County - Corduroy Dreams
-Alan Walker - Faded
-LMFAO - Sexy And I Know It
-Sean Paul - Temperature
-Bon Iver - Lump Sum
-Drake - Jumpman
-Kelis - Milkshake
-Logic - ICONIC (ft Jaden Smith)
-Kanye West - Yikes
-The Lumineers - Life In The City
-Childish Gambino - Bonfire
-Drake - No Long Talk
-Tujamo - Booty Bounce - Radio Edit
-Alexandra Stan - Mr Saxobeat - Radio Edit
-Childish Gambino - Time (feat Ariana Grande)
-Roddy Ricch - The Box
-Billy Joel - The Longest Time
-Big Sean - Deep
-blackbear - wish u the best
-Lil Uzi Vert - Celebration Station
-Jeremy Zucker - hello old friend
-AAP Rocky - Ghetto Symphony (feat Gunplay & AAP Ferg)
-Jax Jones - You Dont Know Me (feat RAYE)
-Logic - Soul Food
-Louis Armstrong - What A Wonderful World - Single Version
-Childish Gambino - Bonfire
-Pnk - Please Dont Leave Me
-Richard Rodgers - 16 Going 17
-SLew - Wrong Side
-Post Malone - Circles
-Young Thug - Hot (Remix) [feat Gunna and Travis Scott]
-NF - Let You Down
-Chelsea Cutler - sometimes
-Tyga - Taste (feat Offset)
-Travis Scott - YOSEMITE
-Flo Rida - GDFR (feat Sage the Gemini & Lookas)
-Bryson Tiller - Sorry Not Sorry
-Kanye West - Ghost Town
-Shallou - Older
-Sleepy Hallow - Deep End Freestyle
-Kanye West - Big Brother
-Taylor Swift - Fearless
-Papithbk - Sad Nibba Hours
-Nappy Roots - Good Day
-The Lonely Island - When Will the Bass Drop (feat Lil Jon & Sam F)
-Ty Dolla ign - Ex (feat YG)
-Tove Lo - Habits (Stay High)
-Jeremih - oui
-Cascada - Evacuate The Dancefloor
-G Herbo - 4am to 8am
-Young Thug - pick up the phone
-Kendrick Lamar - King Kunta
-Drake Bell - I Found A Way
-RL Grime - I Wanna Know
-Vampire Weekend - The Kids Dont Stand A Chance
-Travis Scott - Maria Im Drunk (feat Justin Bieber & Young Thug)
-Fousheé - Deep End
-Fergie - London Bridge
-Jeremy Zucker - you were good to me - shallou remix
-Kanye West - Heartless
-David Guetta - Titanium (feat Sia)
-Wale - Beautiful Bliss
-The 88 - At Least It Was Here (Community Main Title) [Full Length Version]
-DaBaby - TOES (feat Lil Baby & Moneybagg Yo)
-Cash Cash - Finest Hour (feat Abir)
-Kanye West - Through The Wire
-Drake - Chicago Freestyle (feat Giveon)
-SONIA - Joyride
-Sia - Cheap Thrills
-Rae Sremmurd - Come Get Her
-Lil Uzi Vert - Lotus
-Childish Gambino - IV Sweatpants
-Jason Mraz - Lucky
-Rihanna - Dont Stop The Music
-The Lumineers - Ophelia
-Jason Derulo - Talk Dirty (feat 2 Chainz)
-Kanye West - Mercy
-Kanye West - Gold Digger
-Tiësto - Wasted
-Don McLean - American Pie
-Logic - 44 Bars
-Gunna - Same Yung Nigga (feat Playboi Carti)
-Drake - Hold On Were Going Home
-Blues Traveler - Run-Around
-Miguel - Sky Walker (feat Travis Scott)
-Drake - Im Upset
-Lil Uzi Vert - Myron
-Travis Scott - SICKO MODE
-Riot Ten - Money Walk
-24kGoldn - VALENTINO
-Rae Sremmurd - Black Beatles
-Cheat Codes - No Promises (feat Demi Lovato)
-Calvin Harris - Feel So Close - Radio Edit
-Drake - Portland
-Meek Mill - Glow Up
-Calvin Harris - Summer
-Taylor Swift - the 1
-Russ - Lean On You
-MGMT - Kids
-Louis The Child - Little Things (with Quinn XCII & Chelsea Cutler)
-The Travelling Kisses - Love Me Love Me Say That You Love Me
-Maroon 5 - She Will Be Loved
-Big Sean - I Dont Fuck With You
-Beyoncé - Partition
-Starley - Call on Me - Ryan Riback Remix
-Lizzo - Good As Hell
-Taylor Swift - Mine
-Lenny Kravitz - Fly Away
-Red Hot Chili Peppers - Snow (Hey Oh)
-Louis The Child - Slow Down Love
-James Taylor - Copperline
-Phillip Phillips - Gone Gone Gone
-Travis Scott - HOUSTONFORNICATION
-Justin Timberlake - Suit & Tie (feat Jay-Z)
-PARTYNEXTDOOR - LOYAL (feat Drake)
-OMI - Cheerleader - Felix Jaehn Remix Radio Edit
-James Blake - Are You Even Real
-Cordae - Broke As Fuck
-Kodak Black - Transportin
-Future - Low Life (feat The Weeknd)
-Blueface - Thotiana
-Afrojack - Take Over Control
-Lukas Graham - 7 Years
-Leslie Odom Jr - Go Crazy
-Kendrick Lamar - HUMBLE
-The All-American Rejects - Move Along
-Don Omar - Danza Kuduro
-Kanye West - See You In My Nightmares
-Jdizzleonthebeat - Bitch You Guessed It
-Cali Swag District - Teach Me How to Dougie (Explicit Version)
-Coldplay - Viva La Vida
-Aminé - REDMERCEDES
-Kodak Black - Tunnel Vision
-Snoop Dogg - Young Wild & Free (feat Bruno Mars)
-RL Grime - UCLA
-Smallpools - Dreaming
-Taylor Swift - Innocent
-Edward Maya - Stereo Love - Radio Edit
-Migos - Stir Fry
-Mac Miller - Good News
-The Fray - How to Save a Life
-Carolina Liar - Show Me What Im Looking For
-Kid Quill - A Song to Sing (feat Mark Battles & Devvon Terrell)
-Gym Class Heroes - Stereo Hearts (feat Adam Levine)
-2 Chainz - Birthday Song
-OneRepublic - Secrets
-Lil Yachty - Oprahs Bank Account (Lil Yachty & DaBaby feat Drake)
-Fetty Wap - Again
-Clairo - Hello
-Tyga - Taste (feat Offset)
-Jon Bellion - Overwhelming
-A Boogie Wit da Hoodie - Look Back at It
-Drake - Started From the Bottom
-Rae Sremmurd - No Flex Zone
-Lil Uzi Vert - That Way - Bonus Track
-Chelsea Cutler - Crazier Things
-Jaypitts - Tamagotchi
-Two Door Cinema Club - Changing of the Seasons
-Enrique Iglesias - Bailando - Spanish Version
-Iyaz - Replay
-Steve Aoki - Delirious (Boneless) (feat Kid Ink)
-Kanye West - Devil In A New Dress
-Juice WRLD - Titanic
-Two Door Cinema Club - Changing of the Seasons
-Kesha - Take It Off
-Hot Chelle Rae - Tonight Tonight
-Swedish House Mafia - Dont You Worry Child - Radio Edit
-Mike WiLL Made-It - 23
-Lady Gaga - Poker Face
-Kanye West - Touch The Sky
-Kermit - Rainbow Connection - From The Muppet Movie-Soundtrack Version
-Childish Gambino - 3005
-Beyoncé - Love On Top
-Khia - My Neck My Back (Lick It)
-FLETCHER - All Love
-Train - 50 Ways to Say Goodbye
-Jack Harlow - WHATS POPPIN
-XXXTENTACION - SAD
-Young Thug - Bad Bad Bad (feat Lil Baby)
-Kanye West - Waves
-Travis Scott - BUTTERFLY EFFECT
-Drake - Jumpman
-Quinn Lewis - Weekend Luv
-Tiësto - Jackie Chan
-Olivia OBrien - Empty
-Chelsea Cutler - Your Shirt
-Jason Derulo - Talk Dirty (feat 2 Chainz)
-BoB - Magic (feat Rivers Cuomo)
-The Neighbourhood - Sweater Weather
-Drake - Dont Matter To Me (with Michael Jackson)
-MØ - Final Song
-3OH3 - My First Kiss (feat Keha)
-Vampire Weekend - Harmony Hall
-Tiësto - Wasted
-The Beatles - All My Loving - Remastered 2009
-Drake - Marvins Room
-Mac Miller - Party On Fifth Ave
-Louis Armstrong - A Kiss To Build A Dream On - Single Version
-Kanye West - Clique
-Shawn Mendes - Like To Be You (feat Julia Michaels)
-Elle King - Exs & Ohs
-5 Seconds of Summer - Youngblood
-Travis Scott - RIP SCREW
-Lil Uzi Vert - XO Tour Llif3
-Good Morning Club - Clara
-Bon Iver - Perth
-Travis Scott - YOSEMITE
-Childish Gambino - Heartbeat
-Trippie Redd - Topanga
-Maroon 5 - This Love
-Chelsea Cutler - Wake Up
-Myles Parrish - Kickback
-Ed Sheeran - Nina
-Lizzo - Good as Hell
-Neon Trees - Animal
-Fergie - Fergalicious
-Jeremy Zucker - comethru
-Good Morning Club - Fallout
-Mike Posner - I Took A Pill In Ibiza - Seeb Remix
-Thurl Ravenscroft - Youre A Mean One Mr Grinch
-Miranda Cosgrove - Leave It All To Me (Theme from iCarly) (feat Drake Bell)
-Lil Wayne - Mahogany
-JAY-Z - Gotta Have It
-Yeah Yeah Yeahs - Heads Will Roll - A-Trak Remix Radio Edit
-Justin Timberlake - CANT STOP THE FEELING (Original Song from DreamWorks Animations TROLLS)
-Nicki Minaj - Starships
-Scotty Sire - Breakfast In the Park
-Ariana Grande - Dont Call Me Angel (Charlies Angels) (with Miley Cyrus & Lana Del Rey)
-Nicki Minaj - Only
-Migos - Narcos
-Eminem - Mockingbird
-Post Malone - Feeling Whitney
-Red Hot Chili Peppers - Tell Me Baby
-Kid Ink - No Budget (feat Rich The Kid)
-Lil Uzi Vert - Lo Mein
-Lil Nas X - Panini - DaBaby Remix
-Lil Jon - Outta Your Mind
-Matoma - Sunday Morning (feat Josie Dunne) - Jaded Remix
-John Denver - Take Me Home Country Roads
-The Strokes - Reptilia
-Kermit the Frog - Bein Green
-John Legend - Ordinary People
-Panic At The Disco - Dont Threaten Me with a Good Time
-Lil Baby - Yes Indeed
-Fetty Wap - Trap Queen
-Kygo - It Aint Me (with Selena Gomez)
-Kanye West - I Love It (& Lil Pump)
-Alex Ferro - You (Itro Remix)
-Logic - Growing Pains III
-Khalid - Talk
-Galantis - No Money
-Shawn Mendes - Lost In Japan
-Carly Rae Jepsen - Call Me Maybe
-Lil Wayne - President Carter
-The Chainsmokers - Closer
-Diplo - Welcome to the Party (with French Montana & Lil Pump feat Zhavia Ward) - from Deadpool 2
-Childish Gambino - IV Sweatpants
-Big Sean - One Man Can Change The World
-Dimitri Vangelis & Wyman - Horns
-AAP Rocky - Changes
-DJ Khaled - All I Do Is Win (feat T-Pain Ludacris Snoop Dogg & Rick Ross)
-Skrillex - Bangarang (feat Sirah)
-Kanye West - Famous
-Eiffel 65 - Blue (Da Ba Dee) - Gabry Ponte Ice Pop Radio
-RL Grime - UCLA
-Kendrick Lamar - mAAd city
-Billy Joel - Vienna
-Stitches - Molly Cyrus
-Post Malone - Rich & Sad
-John Newman - Love Me Again
-Taylor Swift - cardigan
-Yellow Claw - DJ Turn It Up
-Stevie Wonder - Superstition - Single Version
-Childish Gambino - 3005
-Kid Cudi - Pursuit Of Happiness - Extended Steve Aoki Remix (Explicit)
-Chelsea Cutler - Crazier Things (with Noah Kahan)
-The Civil Wars - Eavesdrop
-ILOVEMAKONNEN - Tuesday (feat Drake)
-Curtis Waters - Stunnin (feat Harm Franklin)
-Tiësto - Jackie Chan
-Joey Bada - DEVASTATED
-Ed Sheeran - I Dont Care (with Justin Bieber)
-Sam Smith - Im Not The Only One
-Flo Rida - Right Round
-Milky Chance - Cocoon
-The Killers - When You Were Young
-6ix9ine - FEFE (feat Nicki Minaj & Murda Beatz)
-G-Eazy - Everything Will Be OK (feat Kehlani)
-Stevie Wonder - Signed Sealed Delivered (Im Yours)
-Gucci Mane - I Get The Bag (feat Migos)
-Jason Mraz - I Wont Give Up
-James Taylor - How Sweet It Is (To Be Loved By You) - 2019 Remaster
-Chelsea Cutler - Summer Love - Recorded at Spotify Studios NYC
-Jay Rock - WIN
-Post Malone - Sugar Wraith
-Chris Brown - Strip
-Hozier - Take Me to Church
-BROCKHAMPTON - VICTOR ROBERTS
-24kGoldn - VALENTINO
-Avicii - Levels
-Kanye West - Ghost Town
-Chelsea Cutler - Lonely Alone
-ROLE MODEL - hello
-Logic - Flexicution
-Lil Uzi Vert - Moon Relate
-2 Chainz - We Own It (Fast & Furious)
-Rob tone - Chill Bill (feat J Davi & Spooks)
-Fitz and The Tantrums - HandClap
-OneRepublic - Apologize
-fun - Some Nights
-BoB - Magic (feat Rivers Cuomo)
-Lil Uzi Vert - Bigger Than Life
-Post Malone - Saint-Tropez
-Big Sean - Blessings
-Post Malone - 92 Explorer
-Kanye West - RoboCop
-Zedd - Stay
-Loona - Vamos a la Playa
-The All-American Rejects - Gives You Hell
-The Killers - Mr Brightside
-Rihanna - S&M
-Travis Scott - HIGHEST IN THE ROOM
-Nicki Minaj - Feeling Myself
-Post Malone - Circles
-Ellie Goulding - Close To Me (with Diplo) (feat Swae Lee)
-Rae Sremmurd - No Type
-Mac Miller - Good News
-James Blake - Mile High
-Young Thug - The London (feat J Cole & Travis Scott)
-The Police - Every Little Thing She Does Is Magic
-Bowling For Soup - 1985
-Usher - Yeah (feat Lil Jon & Ludacris)
-Calvin Harris - Blame (feat John Newman)
-David Guetta - Titanium (feat Sia)
-James Bay - Wasted On Each Other
-Regard - Ride It
-Phoebe Bridgers - Kyoto
-Big Sean - I Know
-A Boogie Wit da Hoodie - Startender (feat Offset and Tyga)
-070 Shake - Guilty Conscience
-fun - We Are Young (feat Janelle Monáe)
-Lil Nas X - Old Town Road - Remix
-Snoop Dogg - Young Wild & Free (feat Bruno Mars)
-Kura - Bounce
 XXXTENTACION - changes
-Kanye West - So Appalled
+Lil Yachty - Oprahs Bank Account (Lil Yachty & DaBaby feat Drake)
+Chelsea Cutler - Snow In October
+Nancy Adams - Love
+Post Malone - Feeling Whitney
+Ed Sheeran - Dive
+Leslie Odom Jr - Go Crazy
+Alec Benjamin - Steve
+Wale - Beautiful Bliss
+Lorde - Perfect Places
+J Cole - Fire Squad
+The Police - Every Little Thing She Does Is Magic
+Panic At The Disco - Dont Threaten Me with a Good Time
+6ix9ine - FEFE
+Declan McKenna - Brazil
+Russ - Lean On You
+Mac Miller - Good News
+Kermit the Frog - Bein Green
+Aminé - Caroline
+Camille - Le Festin
+Kermit - Rainbow Connection - From The Muppet Movie-Soundtrack Version
+Ed Sheeran - Dont
+La Roux - Bulletproof
+James Taylor - Copperline
+Don Toliver - After Party
+Jason Derulo - Swalla (feat Nicki Minaj & Ty Dolla ign)
+Saib - Café
+Shallou - Older
+Olivia OBrien - Tequilawine
+Otis Redding - My Girl
+XXXTENTACION - Moonlight
+Travis Scott - BUTTERFLY EFFECT
+Childish Gambino - 3531
+21 Savage - Ghostface Killers
+Miranda Cosgrove - Leave It All To Me (Theme from iCarly) (feat Drake Bell)
+Regard - Ride It
+Gary Portnoy - Where Everybody Knows Your Name (Cheers Theme)
+Kanye West - Ghost Town
+Dr Fresch - Feedback (feat Mina Knock)
+Vampire Weekend - A-Punk
+Insane Clown Posse - Chop Chop Slide
+Lizzo - Truth Hurts
+Scotty Sire - My Life Sucks
+P-Lo - same squad
+Kim Wilde - Kids In America
+Louis Armstrong - A Kiss To Build A Dream On - Single Version
+6LACK - Let Her Go
+Ariana Grande - Love Me Harder
+Don McLean - Empty Chairs
+Louis Armstrong - La vie en rose - Single Version
+070 Shake - Guilty Conscience
+The Lumineers - Gloria
+Logic - Soul Food
+Chelsea Cutler - Evil
+Chelsea Cutler - Deathbed
+Mac Miller - Party On Fifth Ave
+Beyoncé - Crazy In Love (feat Jay-Z)
+Inner Circle - Bad Boys (Theme from COPS)
+Julia Michaels - Issues
+Berlin - Take My Breath Away
+Papithbk - Savage Mode
+Don McLean - Vincent
+6LACK - Pretty Little Fears (feat J Cole)
+Simon & Garfunkel - A Hazy Shade of Winter
+Never Shout Never - Jane Doe
+Stevie Wonder - Superstition - Single Version
+Glass Animals - Tokyo Drifting (with Denzel Curry)
+Louis Armstrong - What A Wonderful World - Single Version
+The Chainsmokers - Call You Mine
+Hermans Hermits - Theres A Kind Of Hush
+Electric Light Orchestra - Mr Blue Sky
+A Great Big World - Say Something
+Vampire Weekend - The Kids Dont Stand A Chance
+Playboi Carti - Shoota (feat Lil Uzi Vert)
+Post Malone - Leave
+Louis The Child - Little Things (with Quinn XCII & Chelsea Cutler)
+Travis Scott - HOUSTONFORNICATION
+Travis Scott - HIGHEST IN THE ROOM
+Bryce Vine - La La Land - Acoustic
+Fuse ODG - Boa Me (feat Ed Sheeran & Mugeez)
+Flobots - Handlebars
+Papithbk - WHY AM I Waiting
+JAY-Z - No Church In The Wild
+Future - Low Life (feat The Weeknd)
+Phoebe Bridgers - Motion Sickness
+RL Grime - UCLA
+Taylor Swift - Youre Not Sorry
+Taylor Swift - Dear John
+Jason Mraz - I Wont Give Up
+Taylor Swift - Forever & Always
+Rod Wave - Rags2Riches (feat ATR Son Son)
+Tyga - Taste (feat Offset)
+DJ Snake - Taki Taki (feat Selena Gomez Ozuna & Cardi B)
+Drake - Marvins Room
+Justin Bieber - Sorry
+The Beatles - All My Loving - Remastered 2009
+Clairo - Hello
+Ariana Grande - The Way
+Kidz Bop Kids - Truth Hurts
+Milky Chance - Cocoon
+Mac Miller - Weekend (feat Miguel)
+Kanye West - I Love It (& Lil Pump)
+T-Wayne - Nasty Freestyle
+Camila Cabello - Consequences
+Madd - Games
+The Foundations - Build Me Up Buttercup
+Juice WRLD - Lucid Dreams
+Eminem - Stan
+Old Dominion - One Man Band
+ROLE MODEL - hello
+Taylor Swift - Love Story
+Train - Hey Soul Sister
+Taylor Swift - Innocent
+Drake - Chicago Freestyle (feat Giveon)
+Fiona Apple - Across the Universe
+Leon Bridges - Forgive You
+Aminé - Campfire
+Taylor Swift - Hey Stephen
+J Cole - No Role Modelz
+Kodak Black - ZEZE (feat Travis Scott & Offset)
+Bobby Helms - Jingle Bell Rock
+G-Eazy - Forbes
+Riff Raff - Tip Toe Wing In My Jawwwdinz
+SAINt JHN - Roses - Imanbek Remix
+Ariana Grande - pete davidson
+The Chainsmokers - My Type (feat Emily Warren)
+Chelsea Cutler - Giving Up Ground (feat Quinn XCII)
+Lil Dicky - Truman
+SONIA - Joyride
+Rihanna - Umbrella
+The Strumbellas - Spirits
+Vampire Weekend - Cape Cod Kwassa Kwassa
+Travis Scott - Maria Im Drunk (feat Justin Bieber & Young Thug)
+MisterWives - Our Own House
+Young the Giant - Cough Syrup
+Logic - Dont Be Afraid To Be Different (feat Will Smith)
+Liam Payne - Strip That Down
+Dua Lipa - Levitating
+Taylor Swift - Mine
+John Legend - Ordinary People
+Alec Benjamin - If We Have Each Other
+Ed Sheeran - The A Team
+blackbear - wish u the best
+Logic - Stainless
+The Band CAMINO - Crying Over You
+Fozzie - Movin Right Along - From The Muppet Movie-Soundtrack Version
+Quinn XCII - Flare Guns
+Post Malone - Take What You Want (feat Ozzy Osbourne & Travis Scott)
+Miguel - Sky Walker (feat Travis Scott)
+Vampire Weekend - This Life
+Mac Miller - Blue World
+Red Hot Chili Peppers - Tell Me Baby
+Lenny Kravitz - Are You Gonna Go My Way
+Modest Mouse - Float On
+MAGIC - Rude
+Justin Bieber - Intentions
+Macklemore & Ryan Lewis - Thrift Shop (feat Wanz)
+G-Eazy - You Got Me
+Vampire Weekend - We Belong Together (feat Danielle Haim)
+Wiz Khalifa - Roll Up
+Bon Iver - Perth
+Kanye West - Gold Digger
+Machine Gun Kelly - Bad Things (with Camila Cabello)
+Martin Jensen - Somebody Im Not
+Leslie Odom Jr - Dear Theodosia
+DaBaby - BOP
+Julia Michaels - Happy
+Travis Scott - first take
+Enrique Iglesias - Bailando - Spanish Version
+blackbear - do re mi
+Taylor Swift - Fearless
+Phoebe Bridgers - Kyoto
+The Crew Cuts - Sh Boom (Life Could Be a Dream)
+James Blake - Mile High
+Rae Sremmurd - No Type
+Daniel Powter - Bad Day
+Julia Michaels - Priest
+AAP Rocky - Ghetto Symphony (feat Gunplay & AAP Ferg)
+Kanye West - Wolves
+Rex Orange County - Untitled
+Beyoncé - Drunk in Love (feat Jay-Z)
+Ra Ra Riot - Water
+David Guetta - Titanium (feat Sia)
+Travis Scott - goosebumps
+James Bay - Move Together - The Dark Of The Morning Version
+James Bay - Need The Sun To Break - The Dark Of The Morning Version
+The Weeknd - Cant Feel My Face
+Frank Ocean - Nights
+Chelsea Cutler - Sixteen
+Lil Dicky - Who Knew
+Jay Rock - WIN
+Rae Sremmurd - Powerglide (feat Juicy J) - From SR3MM
+Arizona Zervas - ROXANNE
+Richard Rodgers - 16 Going 17
+Elle King - Exs & Ohs
+Chelsea Cutler - Somebody Else Will Get Your Eyes
+Alec Benjamin - Boy In The Bubble
+Earl Sweatshirt - Chum
+Taylor Swift - Back To December
+Travis Scott - Upper Echelon (feat TI & 2 Chainz)
+Jeremih - The Light
+Logic - The Jam
+Chelsea Cutler - Crazier Things
+Post Malone - Paranoid
+Billy Ocean - Suddenly
+Train - Drive By
+Olivia OBrien - Empty
+Still Woozy - Goodie Bag
+Machine Gun Kelly - Trap Paris (feat Quavo & Ty Dolla ign)
+Adele - Someone Like You
+The Chainsmokers - Bloodstream
+Lil Dicky - Bruh
+Ellie Goulding - Close To Me (with Diplo) (feat Swae Lee)
+Chelsea Cutler - The Human Condition
+A Boogie Wit da Hoodie - Swervin (feat 6ix9ine)
+Post Malone - Takin Shots
+Jason Mraz - Im Yours
+Big Sean - Deep
+Jeremy Zucker - hello old friend
+2 Chainz - We Own It (Fast & Furious)
+DaBaby - TOES (feat Lil Baby & Moneybagg Yo)
+Chelsea Cutler - please
+Chelsea Cutler - sometimes
+Justin Bieber - Love Yourself
+Rae Sremmurd - Black Beatles
+Ingrid Michaelson - The Way I Am
+2 Chainz - Big Amount
+Vampire Weekend - Jerusalem New York Berlin
+G-Eazy - Everything Will Be OK (feat Kehlani)
+The Temptations - My Girl
+Red Hot Chili Peppers - Snow (Hey Oh)
+Riot Ten - Money Walk
+Lil Wayne - Uproar
+Vampire Weekend - Walcott
+JAY-Z - Holy Grail
+Taylor Swift - exile (feat Bon Iver)
+NF - Let You Down
+Captain Ahab - Girls Gone Wild
+Alexander 23 - High School
+Zac Brown Band - Loving You Easy
+Cardi B - Bodak Yellow
+Jeremy Zucker - scared
+Chance the Rapper - Same Drugs
+Chelsea Cutler - Your Shirt
+Mike Posner - Cooler Than Me (feat Big Sean)
+James Blake - Are You Even Real
+Chelsea Cutler - Summer Love - Recorded at Spotify Studios NYC
+Sleepy Hallow - Deep End Freestyle
+Bright Eyes - First Day Of My Life
+RL Grime - I Wanna Know
+Snoop Dogg - Young Wild & Free (feat Bruno Mars)
+Lil Wayne - Believe Me
+Billy Crystal - If I Didnt Have You
+The Travelling Kisses - Love Me Love Me Say That You Love Me
+Rae Sremmurd - No Flex Zone
+James Blake - Vincent
+The Chainsmokers - Paris
+Ayo & Teo - Rolex
+Lil Yachty - Yacht Club (feat Juice WRLD)
+Taylor Swift - the 1
+Lil Wayne - How To Love
+Halsey - Gasoline
+Cardi B - Be Careful
+Chelsea Cutler - Lonely Alone
+Lil Wayne - Mahogany
+The Lumineers - Dead Sea
+Drake - Summer Sixteen
+Big Sean - Sacrifices
+Joy Oladokun - sunday
+Kevin Abstract - Empty
+The Lumineers - Flowers in Your Hair
+Why Dont We - What Am I
+Eric Hutchinson - Oh
+Post Malone - Up There
+Ruel - Painkiller
+Chelsea Cutler - Crazier Things (with Noah Kahan)
+Ingrid Michaelson - You and I
+JP Saxe - Sad Corny Fuck
+Rex Orange County - Loving Is Easy
+Rixton - Me And My Broken Heart
+Childish Gambino - 5349
+Ed Sheeran - I Dont Care (with Justin Bieber)
+Kanye West - Father Stretch My Hands Pt 1
+Estelle - American Boy
+Desiigner - Panda
+Taylor Swift - mad woman
+AAP Rocky - 1Train (feat Kendrick Lamar Joey Bada Yelawolf Danny Brown Action Bronson & Big KRIT)
+Lizzo - Good As Hell
+A Boogie Wit da Hoodie - Voices in My Head
+Jeremy Zucker - oh mexico
+The Chainsmokers - Closer
+Kanye West - Mercy
+Logic - Never Been
+Waka Flocka Flame - No Hands (feat Roscoe Dash & Wale)
+Cardi B - Ring (feat Kehlani)
+Bea Miller - like that
+BROCKHAMPTON - VICTOR ROBERTS
+Wiz Khalifa - See You Again (feat Charlie Puth)
+Ed Sheeran - Nina
+Childish Gambino - Bonfire
+Rex Orange County - Corduroy Dreams
+DaBaby - PICK UP (feat Quavo)
+Bon Iver - Skinny Love
+Halsey - Without Me
+Morningsiders - Somewhere In Between
+The Rolling Stones - Out Of Time - Strings Version
+Vampire Weekend - Hannah Hunt
+The Beatles - Let It Be - Naked Version - Remastered 2013
+Taylor Swift - You Belong With Me
+Ed Sheeran - Happier
+070 Shake - Morrow
+Phoebe Bridgers - I Know The End
+Logic - Im Gone
+Phoebe Bridgers - I See You
+Louis The Child - Slow Down Love
+Willie Nelson - Buddy
+Travis Scott - YOSEMITE
+Coldplay - Viva La Vida
+J Cole - A Tale of 2 Citiez
+Dua Lipa - IDGAF
+Taylor Swift - Mean
+Ben Folds - Bitches Aint Shit
+The Carters - APESHIT
+Lil Baby - Pure Cocaine
+The Civil Wars - Eavesdrop
 Meek Mill - Millidelphia (feat Swizz Beatz)
+Ariana Grande - Break Your Heart Right Back
+XXXTENTACION - SAD
+Rae Sremmurd - This Could Be Us
+DJ Jazzy Jeff & The Fresh Prince - The Fresh Prince of Bel-Air
+Willie Nelson - Cruel World
+Ed Sheeran - Antisocial (with Travis Scott)
+Dan  Shay - 10000 Hours (with Justin Bieber)
+Justin Bieber - Boyfriend
+John Legend - Penthouse Floor (feat Chance the Rapper)
+A Boogie Wit da Hoodie - Love Drugs and Sex
+Ed Sheeran - 1000 Nights (feat Meek Mill & A Boogie Wit da Hoodie)
+The Lumineers - Ophelia
+Sam Smith - Im Not The Only One
+Big Sean - No Favors
+Kanye West - Heartless
+Lil Baby - Time (feat Meek Mill)
+Post Malone - Im Gonna Be
+Ed Sheeran - Barcelona
+Jason Mraz - Lucky
+Olivia OBrien - Almost In Love
+The White Stripes - Were Going To Be Friends
+Post Malone - Rich & Sad
+Bazzi - Myself
+BlocBoy JB - Look Alive (feat Drake)
+Jay Rock - Kings Dead (with Kendrick Lamar Future & James Blake)
+Logic - Bounce
+Meek Mill - Litty (feat Tory Lanez)
+AAP Rocky - Changes
+Logic - One Day (ft Ryan Tedder)
+Michael Giacchino - Married Life
+ayokay - The Shine (feat Chelsea Cutler)
+Myles Parrish - Kickback
+Young Thug - Hot (feat Gunna)
+Jeremy Zucker - better off
+Adele - Hello
+Vampire Weekend - Harmony Hall
+Good Morning Club - Fallout
+Big Sean - I Know
+Kanye West - Every Hour
+Jack Johnson - Sunsets For Somebody Else
+Lenny Kravitz - Fly Away
+Rex Orange County - Sunflower
+JP Saxe - 3 Minutes
+SLew - Wrong Side
+Rae Sremmurd - Swang
+Drake - Hotline Bling
+The Chainsmokers - You Owe Me
+Julia Michaels - Deep
+Dionne Warwick - Thats What Friends Are For (with Elton John Gladys Knight & Stevie Wonder)
+Chelsea Cutler - Out of Focus
+Billy Joel - The Longest Time
+Scotty Sire - Take Me Away
+Logic - Lord Willin
+YK Osiris - Worth It
+Big Sean - One Man Can Change The World
+Jeremy Zucker - you were good to me - shallou remix
+James Blake - Barefoot In The Park
+Vampire Weekend - Unbelievers
+Lou Bega - Mambo No 5 (a Little Bit of)
+Jawsh 685 - Savage Love (Laxed - Siren Beat)
+OutKast - Hey Ya - Radio Mix
+Eric Hutchinson - Rock & Roll
+Bahamas - Way With Words
+Tory Lanez - Stupid Again
+Drake - Elevate
+Alessia Cara - Scars To Your Beautiful
+Jimmy Eat World - The Middle
+Thurl Ravenscroft - Youre A Mean One Mr Grinch
+The 88 - At Least It Was Here (Community Main Title) [Full Length Version]
+Cosmo Jarvis - Gay Pirates
+Danny Brown - Grown Up
+Future - 100 Shooters (feat Meek Mill)
+Fetty Wap - Again
+Post Malone - Saint-Tropez
+Childish Gambino - IV Sweatpants
