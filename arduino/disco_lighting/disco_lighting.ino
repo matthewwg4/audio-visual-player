@@ -1,10 +1,10 @@
 #include <Adafruit_NeoPixel.h>
 #define PIN 6
-#define NUMPIXELS 50
+#define NUMPIXELS 150
 #define SATURATION 255
 #define VALUE 255
-#define SPEED 2000
-#define DELAY 20 
+#define SPEED 700
+#define DELAY 7 
 
 
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);

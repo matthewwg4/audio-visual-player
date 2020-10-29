@@ -70,7 +70,7 @@ class App:
         lbl1b.grid(column=0, row=5, columnspan=3)
         self.all_songs = ttk.Combobox(tab1, state="readonly", width=40)
         self.all_songs['values'] = self.read_songs()
-        self.all_songs.current(0)
+        #self.all_songs.current(0)
         self.all_songs.grid(column=0, row=6, columnspan=2)
         btn1b = Button(tab1, text="Add to Queue", command=self.queue_add_all)
         btn1b.grid(column=2, row=6)
