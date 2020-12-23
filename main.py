@@ -23,9 +23,10 @@ class App:
         self.song_file = os.path.join(code_directory, song_file)
         self.queue_file = os.path.join(code_directory, queue_file)
         self.window = None
+        self.new_playlist_name = None
         self.link = None
         self.playlist = None
-        self.runner = self.running_thread = None
+        self.runner = self.running_thread = self.screen = None
         self.downloaders = []
         self.queue_thread = None
         self.queue_check_time = 0.25
@@ -81,12 +82,16 @@ class App:
         btn1c = Button(tab1, text="Remove Song", command=self.queue_remove)
         btn1c.grid(column=2, row=8)
 
+        name_label = Label(tab2, text= 'New Playlist Name:')
+        name_label.grid(column=0, row=0)
+        self.new_playlist_name = Entry(tab2, width=20)
+        self.new_playlist_name.grid(column=1, row=0)
         lbl2 = Label(tab2, text= 'Spotify Playlist Link:')
-        lbl2.grid(column=0, row=0)
+        lbl2.grid(column=0, row=1)
         self.link = Entry(tab2, width=20)
-        self.link.grid(column=1, row=0)
+        self.link.grid(column=1, row=1)
         btn2 = Button(tab2, text="Download Playlist", command=self.clicked2)
-        btn2.grid(column=2, row=0)
+        btn2.grid(column=2, row=1)
 
         tab_control.pack(expand=1, fill='both')
         window.protocol("WM_DELETE_WINDOW", self.on_closing)
@@ -110,7 +115,9 @@ class App:
     def clicked1(self):
         playlist.set_playlist(self.code_directory, self.playlist_folder, self.playlist.get() + '.txt', True)
         if self.runner == None:
-            self.runner, self.running_thread = run_leds.main(self.code_directory, 'default')
+            self.runner, self.running_thread, self.screen = run_leds.main(self.code_directory, 'default')
+            if self.screen is not None:
+                self.screen.screen_start()
         else:
             self.runner.skip()
         self.playlist_songs['values'] = self.read_songs(self.playlist.get() + '.txt')
@@ -118,7 +125,7 @@ class App:
 
 
     def clicked2(self):
-        self.downloaders.append(download_playlist(self.link.get()))
+        self.downloaders.append(download_playlist(self.code_directory, self.link.get(), self.new_playlist_name))
 
     def play(self):
         if self.runner != None:
@@ -136,6 +143,8 @@ class App:
         if self.runner != None:
             self.runner.terminate()
             self.running_thread.join()
+        if self.screen != None:
+            self.screen.destroy()
         self.queue_check_time = -1
         self.queue_thread.join()
         with open(self.queue_file, 'w') as file:

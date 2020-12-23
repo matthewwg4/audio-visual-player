@@ -1,8 +1,8 @@
 import os
 
-def main():
+def main(dir="."):
 
-    for list in os.listdir("playlists"):
+    for list in os.listdir(os.path.join(dir, "playlists")):
         filename = os.path.join("playlists", list)
         songs = []
         with open(filename, 'r') as file:

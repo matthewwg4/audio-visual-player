@@ -23,7 +23,7 @@ def extract_data(song_file, song_directory="./mp3-songs", data_directory="./song
 
 def convert_songs_to_data(directory_base=".", mp3_folder="mp3-songs",
         song_folder="songs", data_folder="songs-data",
-        playlist_folder="playlists"):
+        playlist_folder="playlists", playlist_name = "playlist"):
     mp3_directory = os.path.join(directory_base, mp3_folder)
     song_directory = os.path.join(directory_base, song_folder)
     data_directory = os.path.join(directory_base, data_folder)
@@ -31,16 +31,14 @@ def convert_songs_to_data(directory_base=".", mp3_folder="mp3-songs",
 
     # get all mp3 files (and possibly a txt)
     files = os.listdir(mp3_directory)
-
     playlist = ""
-    playlist_name = ""
 
     print("Extracting music data")
     for file in files:
         if file[-4:] == ".mp3":
             song = AudioSegment.from_mp3(os.path.join(mp3_directory, file))
             wav_name = file[:-4]+".wav"
-            if os.path.exists(os.path.join(song_directory, file)):
+            if os.path.exists(os.path.join(song_directory, file)) and os.path.exists(os.path.join(data_directory, file[:-4])):
                 print("Song exists: {}".format(file))
                 os.remove(os.path.join(mp3_directory, file))
             else:
@@ -50,15 +48,12 @@ def convert_songs_to_data(directory_base=".", mp3_folder="mp3-songs",
                 os.remove(os.path.join(mp3_directory, wav_name))
                 print("Data extracted: {}".format(file))
             playlist += file[:-4] + "\n"
-        elif file[-4:] == ".txt" and file != "all.txt":
-            playlist_name = file
 
-    if not playlist_name:
-        i = 0
-        playlist_name = "song_group_0.txt"
-        while os.path.exists(os.path.join(playlist_directory, playlist_name)):
-            i += 1
-            playlist_name = "song_group_"+ str(i)+".txt"
+    i = -1
+    while os.path.exists(os.path.join(playlist_directory, playlist_name + ".txt")):
+        i += 1
+        playlist_name = playlist_name + "_{}".format(i)
+    playlist_name = playlist_name + ".txt"
 
     with open(os.path.join(playlist_directory, playlist_name), "w") as file:
         file.write(playlist)
