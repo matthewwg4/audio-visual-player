@@ -1,23 +1,28 @@
 import os
 import pickle
+import warnings
 
 from pydub import AudioSegment
-import librosa
 import numpy as np
+from scipy.io import wavfile
+from scipy.signal import stft
 
 def extract_data(song_file, song_directory="./mp3-songs", data_directory="./songs-data"):
-    time_series, sample_rate = librosa.load(os.path.join(song_directory, song_file))
+    rate, data = wavfile.read(os.path.join(song_directory, song_file))
 
-    cqt = np.abs(librosa.cqt(time_series, sr=sample_rate, n_bins=96))
-    spectrogram = np.transpose(cqt)**2
+    timedata = np.mean(data, axis=1)
 
-    onset_env = librosa.onset.onset_strength(y=time_series, sr=sample_rate)
-    pulse = librosa.beat.plp(onset_envelope=onset_env, sr=sample_rate, tempo_min=12, tempo_max=150)
+    _, _, Zxx = stft(timedata, rate, nperseg=2048)
 
-    _, beats = librosa.beat.beat_track(y=time_series, sr=sample_rate)
-    beats = librosa.frames_to_time(beats, sr=sample_rate)
+    spectrogram = np.transpose(np.abs(Zxx[1:,:]))**2
+    adjusted = np.multiply(spectrogram, np.divide(np.ones(1024), np.arange(1, 1025)))
+    intensity = np.sum(adjusted, axis=1)
+    midpitch = None
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore")
+        midpitch = np.divide(np.sum(spectrogram, axis=1), intensity * 1024)
 
-    info = {'spectrogram': spectrogram, 'pulse': pulse, 'beats': beats, 'sample_rate': sample_rate}
+    info = {'intensity': intensity, 'midpitch': midpitch, 'sample_rate': rate}
     with open(os.path.join(data_directory, song_file[:-4]), 'wb') as datafile:
         pickle.dump(info, datafile)
 

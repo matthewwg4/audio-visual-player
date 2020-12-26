@@ -1,5 +1,7 @@
 # Audio - Visual Player by Matthew Goldsmith (currently only for MacOS)
 
+Requires MacOS 10.14 or higher
+
 ## How to Install:
 
 This software requires the instalation of VLC media player and can be downloaded here:

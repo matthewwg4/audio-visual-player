@@ -1,8 +1,7 @@
 import glob
 import sys
 
-import LedScroll3
-import LedPowerScroll
+import LedScroll3Spooky
 
 def main(code_directory=".", light_style='default'):
     light_style = 'default'
@@ -28,8 +27,8 @@ def main(code_directory=".", light_style='default'):
     #     print("Running LED Lighting - Style: Scroll 3")
     #     LedScroll3.main()
     else:
-        print("Running LED Lighting - Style: Default (Scroll 3)")
-        return LedScroll3.main(code_directory)
+        print("Running LED Lighting - Style: Default (Scroll 3 Spooky)")
+        return LedScroll3Spooky.main(code_directory)
 
 if __name__ == '__main__':
     light_style = 'default'
