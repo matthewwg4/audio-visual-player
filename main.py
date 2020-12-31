@@ -86,7 +86,7 @@ class App:
         name_label.grid(column=0, row=0)
         self.new_playlist_name = Entry(tab2, width=20)
         self.new_playlist_name.grid(column=1, row=0)
-        lbl2 = Label(tab2, text= 'Spotify Playlist Link:')
+        lbl2 = Label(tab2, text= 'YouTube (Music) Playlist Link:')
         lbl2.grid(column=0, row=1)
         self.link = Entry(tab2, width=20)
         self.link.grid(column=1, row=1)
@@ -125,7 +125,7 @@ class App:
 
 
     def clicked2(self):
-        self.downloaders.append(download_playlist(self.code_directory, self.link.get(), self.new_playlist_name))
+        self.downloaders.append(download_playlist(self.code_directory, self.link.get(), self.new_playlist_name.get()))
 
     def play(self):
         if self.runner != None:

@@ -2,8 +2,8 @@ import os
 
 def main(dir="."):
 
-    for list in os.listdir(os.path.join(dir, "playlists")):
-        filename = os.path.join("playlists", list)
+    for playlist in os.listdir(os.path.join(dir, "playlists")):
+        filename = os.path.join(dir, "playlists", playlist)
         songs = []
         with open(filename, 'r') as file:
             next_line = file.readline()
@@ -11,10 +11,10 @@ def main(dir="."):
                 songs.append(next_line.strip())
                 next_line = file.readline()
 
-        songs.sort()
-        str = '\n'.join(songs)
+        songs.sort(key=str.lower)
+        write_str = '\n'.join(songs)
         with open(filename, 'w') as file:
-            file.write(str)
+            file.write(write_str)
 
 if __name__ == '__main__':
     main()

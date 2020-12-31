@@ -1,7 +1,7 @@
 import os
 import pickle
+import subprocess
 
-from pydub import AudioSegment
 import librosa
 import numpy as np
 
@@ -34,20 +34,24 @@ def convert_songs_to_data(directory_base=".", mp3_folder="mp3-songs",
     playlist = ""
 
     print("Extracting music data")
+    track_count = len(files)
+    track_count_on = 1
     for file in files:
         if file[-4:] == ".mp3":
-            song = AudioSegment.from_mp3(os.path.join(mp3_directory, file))
-            wav_name = file[:-4]+".wav"
             if os.path.exists(os.path.join(song_directory, file)) and os.path.exists(os.path.join(data_directory, file[:-4])):
-                print("Song exists: {}".format(file))
+                print("({}/{}) Song exists: {}".format(track_count_on, track_count, file))
                 os.remove(os.path.join(mp3_directory, file))
             else:
-                song.export(os.path.join(mp3_directory, wav_name), format="wav")
+                wav_name = file[:-4]+".wav"
+                subprocess.run(['ffmpeg', '-hide_banner', '-loglevel', 'warning', '-i', file, wav_name], cwd=mp3_directory)
                 extract_data(wav_name, mp3_directory, data_directory)
                 os.rename(os.path.join(mp3_directory, file), os.path.join(song_directory, file))
                 os.remove(os.path.join(mp3_directory, wav_name))
-                print("Data extracted: {}".format(file))
+                print("({}/{}) Data extracted: {}".format(track_count_on, track_count, file))
             playlist += file[:-4] + "\n"
+        else:
+            print("({}/{}) Erranous file removed: {}".format(track_count_on, track_count, file))
+        track_count_on += 1
 
     i = -1
     while os.path.exists(os.path.join(playlist_directory, playlist_name + ".txt")):
@@ -62,4 +66,4 @@ def convert_songs_to_data(directory_base=".", mp3_folder="mp3-songs",
         file.write(playlist)
 
 if __name__ == '__main__':
-    convert_songs_to_data()
+    convert_songs_to_data(mp3_folder="mp3-songs0")
