@@ -33,6 +33,11 @@ def download_playlist(dir, link, list_name):
 
     print("Beginning download for playlist: {}\nDownloading from link: {}".format(list_name, link))
 
+    if link.find("music.") < 0:
+        proc = Process(target=download_yt_direct, args=(link, directory, dir_base, folder, list_name))
+        proc.start()
+        return proc
+
     playlistId = link[link.find("list=")+5:]
     playlistId_find = playlistId.find("&")
     if playlistId_find > 0:
@@ -141,6 +146,49 @@ def download_tracks(playlist, directory, dir_base, folder, list_name, log_str=""
     if kill_proc:
         os.setpgid(pid, pid)
         os.killpg(pid, signal.SIGKILL)
+
+def download_yt_direct(link, directory, dir_base, folder, list_name, kill_proc=True):
+    # youtube-dl background
+    song_count = 0
+    songs = []
+
+    proc = subprocess.Popen(['youtube-dl', '-q', '-x', '--audio-format', 'mp3', link], cwd=directory)
+    on = True
+    while on:
+        curr_songs = os.listdir(directory)
+        curr_count = len(curr_songs)
+        if curr_count > song_count:
+            for song in curr_songs:
+                if song[-3:] == "mp3" and song not in songs:
+                    songs.append(song)
+                    song_count += 1
+                    print("({}) Downloaded: {}".format(song_count, "~yt~" + song[:-16] + ".mp3"))
+        on = proc.poll() is None
+        time.sleep(1)
+    songs = os.listdir(directory)
+    song_count = len(songs)
+
+    for song in songs:
+        newname = "~yt~" + song[:-16] + ".mp3"
+        os.rename(os.path.join(directory, song), os.path.join(directory, newname))
+
+    # every second check for new files and error output
+    # print out new files log errors (maybe pull stdout as well to check songs vs errors)
+
+    convert.convert_songs_to_data(directory_base=dir_base, mp3_folder=folder, playlist_name=list_name)
+
+    os.rmdir(directory)
+
+    order_playlists.main(dir_base)
+    print("Playlist download complete")
+    print("{} songs downloaded. If this number is incorrect, check console output from download to determine where error occurred.".format(song_count))
+
+    pid = os.getpid()
+    if kill_proc:
+        os.setpgid(pid, pid)
+        os.killpg(pid, signal.SIGKILL)
+    
+
 
 if __name__ == '__main__':
     if len(sys.argv) < 3:

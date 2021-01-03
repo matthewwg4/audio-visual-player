@@ -12,7 +12,7 @@ def main(dir="."):
                 next_line = file.readline()
 
         songs.sort(key=str.lower)
-        write_str = '\n'.join(songs)
+        write_str = '\n'.join(songs) + '\n'
         with open(filename, 'w') as file:
             file.write(write_str)
 
