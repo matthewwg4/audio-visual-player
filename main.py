@@ -42,8 +42,10 @@ class App:
         tab_control = ttk.Notebook(window)
         tab1 = ttk.Frame(tab_control)
         tab2 = ttk.Frame(tab_control)
+        # tab3 = ttk.Frame(tab_control)
         tab_control.add(tab1, text='Play Music')
         tab_control.add(tab2, text='Download Music')
+        # tab_control.add(tab23, text='Manage Music')
 
         lbl1 = Label(tab1, text= 'Play From Playlist:')
         lbl1.grid(column=0, row=0)
@@ -92,6 +94,20 @@ class App:
         self.link.grid(column=1, row=1)
         btn2 = Button(tab2, text="Download Playlist", command=self.clicked2)
         btn2.grid(column=2, row=1)
+
+        # features:
+        # remove song (playist/library)
+        # rename song (library)
+        # remove playlist
+        # rename playlist
+        # merge playlists
+        # add playlist
+        # add song (playlist)
+        # flush (implement) changes
+        # undo last change
+        #
+        # have a list of changes set to occur
+
 
         tab_control.pack(expand=1, fill='both')
         window.protocol("WM_DELETE_WINDOW", self.on_closing)
