@@ -11,6 +11,7 @@ def main(dir="."):
                 songs.append(next_line.strip())
                 next_line = file.readline()
 
+        songs = list(set(songs))
         songs.sort(key=str.lower)
         write_str = '\n'.join(songs) + '\n'
         with open(filename, 'w') as file:

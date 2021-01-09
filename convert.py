@@ -23,7 +23,7 @@ def extract_data(song_file, song_directory="./mp3-songs", data_directory="./song
 
 def convert_songs_to_data(directory_base=".", mp3_folder="mp3-songs",
         song_folder="songs", data_folder="songs-data",
-        playlist_folder="playlists", playlist_name = "playlist"):
+        playlist_folder="playlists", playlist_name = "playlist", append_pl=False):
     mp3_directory = os.path.join(directory_base, mp3_folder)
     song_directory = os.path.join(directory_base, song_folder)
     data_directory = os.path.join(directory_base, data_folder)
@@ -53,14 +53,19 @@ def convert_songs_to_data(directory_base=".", mp3_folder="mp3-songs",
             print("({}/{}) Erranous file removed: {}".format(track_count_on, track_count, file))
         track_count_on += 1
 
-    i = -1
-    while os.path.exists(os.path.join(playlist_directory, playlist_name + ".txt")):
-        i += 1
-        playlist_name = playlist_name + "_{}".format(i)
-    playlist_name = playlist_name + ".txt"
+    if append_pl:
+        playlist_name = playlist_name + ".txt"
+        with open(os.path.join(playlist_directory, playlist_name), "a") as file:
+            file.write(playlist)
+    else:
+        i = -1
+        while os.path.exists(os.path.join(playlist_directory, playlist_name + ".txt")):
+            i += 1
+            playlist_name = playlist_name + "_{}".format(i)
+        playlist_name = playlist_name + ".txt"
 
-    with open(os.path.join(playlist_directory, playlist_name), "w") as file:
-        file.write(playlist)
+        with open(os.path.join(playlist_directory, playlist_name), "w") as file:
+            file.write(playlist)
 
     with open(os.path.join(playlist_directory, "all.txt"), "a") as file:
         file.write(playlist)

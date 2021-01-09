@@ -84,16 +84,28 @@ class App:
         btn1c = Button(tab1, text="Remove Song", command=self.queue_remove)
         btn1c.grid(column=2, row=8)
 
-        name_label = Label(tab2, text= 'New Playlist Name:')
-        name_label.grid(column=0, row=0)
+        self.radio_val = IntVar()
+        self.radio_val.set(1)
+        r1 = Radiobutton(tab2, text="Create new playlist", variable=self.radio_val, value=1, command=self.show_textbox)
+        r2 = Radiobutton(tab2, text="Append to existing playlist", variable=self.radio_val, value=2, command=self.show_list)
+        r1.grid(column=0, row=0)
+        r2.grid(column=1, row=0, columnspan=2)
+        self.name_label = Label(tab2, text= 'New Playlist Name:')
+        self.name_label.grid(column=0, row=1)
         self.new_playlist_name = Entry(tab2, width=20)
-        self.new_playlist_name.grid(column=1, row=0)
+        self.new_playlist_name.grid(column=1, row=1)
+        self.add_to = Label(tab2, text= 'Add to Playlist:')
+        # add_to.grid(column=0, row=2)
+        self.append_playlist = ttk.Combobox(tab2, state="readonly")
+        self.append_playlist['values'] = tuple([x[:-4] for x in os.listdir(os.path.join(self.code_directory, self.playlist_folder)) if len(x) > 4 and x[-4:] == '.txt' and x != 'all.txt'])
+        # self.append_playlist.current(0)
+        # self.append_playlist.grid(column=1, row=2)
         lbl2 = Label(tab2, text= 'YouTube (Music) Playlist Link:')
-        lbl2.grid(column=0, row=1)
+        lbl2.grid(column=0, row=2)
         self.link = Entry(tab2, width=20)
-        self.link.grid(column=1, row=1)
+        self.link.grid(column=1, row=2)
         btn2 = Button(tab2, text="Download Playlist", command=self.clicked2)
-        btn2.grid(column=2, row=1)
+        btn2.grid(column=2, row=2)
 
         # features:
         # remove song (playist/library)
@@ -141,7 +153,10 @@ class App:
 
 
     def clicked2(self):
-        self.downloaders.append(download_playlist(self.code_directory, self.link.get(), self.new_playlist_name.get()))
+        if self.radio_val.get() == 1:
+            self.downloaders.append(download_playlist(self.code_directory, self.link.get(), self.new_playlist_name.get(), False))
+        else:
+            self.downloaders.append(download_playlist(self.code_directory, self.link.get(), self.append_playlist.get(), True))
 
     def play(self):
         if self.runner != None:
@@ -278,6 +293,21 @@ class App:
         str = '\n'.join(songs)
         with open(filename, 'w') as file:
             file.write(str)
+
+    # hiding and showing download options
+
+    def show_textbox(self):
+        self.name_label.grid(column=0, row=1)
+        self.new_playlist_name.grid(column=1, row=1)
+        self.add_to.grid_forget()
+        self.append_playlist.grid_forget()
+
+    def show_list(self):
+        self.add_to.grid(column=0, row=1)
+        self.append_playlist.grid(column=1, row=1)
+        self.append_playlist.current(0)
+        self.name_label.grid_forget()
+        self.new_playlist_name.grid_forget()
 
 if __name__ == '__main__':
     directory = sys.argv[1]

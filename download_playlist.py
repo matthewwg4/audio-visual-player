@@ -10,7 +10,7 @@ import order_playlists
 
 from ytmusicapi.ytmusic import YTMusic
 
-def download_playlist(dir, link, list_name):
+def download_playlist(dir, link, list_name, append_pl=False):
     
     if list_name is None:
         list_name = "playlist"
@@ -34,7 +34,7 @@ def download_playlist(dir, link, list_name):
     print("Beginning download for playlist: {}\nDownloading from link: {}".format(list_name, link))
 
     if link.find("music.") < 0:
-        proc = Process(target=download_yt_direct, args=(link, directory, dir_base, folder, list_name))
+        proc = Process(target=download_yt_direct, args=(link, directory, dir_base, folder, list_name, append_pl))
         proc.start()
         return proc
 
@@ -78,14 +78,18 @@ def download_playlist(dir, link, list_name):
     if len(log_str) == log_str_orig_len:
         log_str = ""
     
-    proc = Process(target=download_tracks, args=(playlist, directory, dir_base, folder, list_name, log_str))
+    proc = Process(target=download_tracks, args=(playlist, directory, dir_base, folder, list_name, log_str, append_pl))
     proc.start()
     return proc
 
-def download_tracks(playlist, directory, dir_base, folder, list_name, log_str="", kill_proc=True):
+def download_tracks(playlist, directory, dir_base, folder, list_name, log_str="", append_pl=False, kill_proc=True):
 
     track_count = len(playlist['tracks'])
     track_count_on = 1 # sys.stdout.write('\r%d%%' % x) sys.stdout.flush() prints x%
+
+    print(list_name)
+    print(append_pl)
+    time.sleep(100)
 
     log_str_pre_len = len(log_str)
     log_str += "--- WHILE DOWNLOADING PLAYLIST ---\n"
@@ -128,7 +132,7 @@ def download_tracks(playlist, directory, dir_base, folder, list_name, log_str=""
 
         track_count_on += 1
 
-    convert.convert_songs_to_data(directory_base=dir_base, mp3_folder=folder, playlist_name=list_name)
+    convert.convert_songs_to_data(directory_base=dir_base, mp3_folder=folder, playlist_name=list_name, append_pl=append_pl)
 
     os.rmdir(directory)
 
@@ -147,7 +151,7 @@ def download_tracks(playlist, directory, dir_base, folder, list_name, log_str=""
         os.setpgid(pid, pid)
         os.killpg(pid, signal.SIGKILL)
 
-def download_yt_direct(link, directory, dir_base, folder, list_name, kill_proc=True):
+def download_yt_direct(link, directory, dir_base, folder, list_name, append_pl=False, kill_proc=True):
     # youtube-dl background
     song_count = 0
     songs = []
@@ -175,7 +179,7 @@ def download_yt_direct(link, directory, dir_base, folder, list_name, kill_proc=T
     # every second check for new files and error output
     # print out new files log errors (maybe pull stdout as well to check songs vs errors)
 
-    convert.convert_songs_to_data(directory_base=dir_base, mp3_folder=folder, playlist_name=list_name)
+    convert.convert_songs_to_data(directory_base=dir_base, mp3_folder=folder, playlist_name=list_name, append_pl=append_pl)
 
     os.rmdir(directory)
 
