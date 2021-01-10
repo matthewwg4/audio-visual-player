@@ -32,6 +32,7 @@ class App:
         self.queue_check_time = 0.25
         self.queue = [[],[]]
         self.playlist_songs = self.all_songs = None
+        self.slated_changes = []
 
     def main(self):
 
@@ -42,10 +43,10 @@ class App:
         tab_control = ttk.Notebook(window)
         tab1 = ttk.Frame(tab_control)
         tab2 = ttk.Frame(tab_control)
-        # tab3 = ttk.Frame(tab_control)
+        tab3 = ttk.Frame(tab_control)
         tab_control.add(tab1, text='Play Music')
         tab_control.add(tab2, text='Download Music')
-        # tab_control.add(tab23, text='Manage Music')
+        tab_control.add(tab3, text='Manage Music (Not Functional)')
 
         lbl1 = Label(tab1, text= 'Play From Playlist:')
         lbl1.grid(column=0, row=0)
@@ -61,7 +62,7 @@ class App:
         pause_btn.grid(column=1, row=1)
         nxt = Button(tab1, text="Next Song", command=self.skip)
         nxt.grid(column=2, row=1)
-        self.queue_txt = scrolledtext.ScrolledText(tab1, width=60, height=15, pady=5)
+        self.queue_txt = scrolledtext.ScrolledText(tab1, width=69, height=15, pady=5)
         self.queue_txt.grid(column=0, row=2, columnspan=3)
         lbl1a = Label(tab1, text= 'Add to Queue From Playlist:')
         lbl1a.grid(column=0, row=3, columnspan=3)
@@ -95,11 +96,8 @@ class App:
         self.new_playlist_name = Entry(tab2, width=20)
         self.new_playlist_name.grid(column=1, row=1)
         self.add_to = Label(tab2, text= 'Add to Playlist:')
-        # add_to.grid(column=0, row=2)
         self.append_playlist = ttk.Combobox(tab2, state="readonly")
         self.append_playlist['values'] = tuple([x[:-4] for x in os.listdir(os.path.join(self.code_directory, self.playlist_folder)) if len(x) > 4 and x[-4:] == '.txt' and x != 'all.txt'])
-        # self.append_playlist.current(0)
-        # self.append_playlist.grid(column=1, row=2)
         lbl2 = Label(tab2, text= 'YouTube (Music) Playlist Link:')
         lbl2.grid(column=0, row=2)
         self.link = Entry(tab2, width=20)
@@ -107,19 +105,78 @@ class App:
         btn2 = Button(tab2, text="Download Playlist", command=self.clicked2)
         btn2.grid(column=2, row=2)
 
-        # features:
-        # remove song (playist/library)
-        # rename song (library)
-        # remove playlist
-        # rename playlist
-        # merge playlists
-        # add playlist
-        # add song (playlist)
-        # flush (implement) changes
-        # undo last change
-        #
-        # have a list of changes set to occur
 
+        lib_manage_lbl = Label(tab3, text= '-------- Manage Library --------')
+        lib_manage_lbl.grid(column=0, row=0, columnspan=3, pady=5)
+        lib_song_lbl = Label(tab3, text= 'For song:')
+        lib_song_lbl.grid(column=0, row=1)
+        self.lib_song = ttk.Combobox(tab3, state="readonly", width=32)
+        self.lib_song['values'] = self.read_songs()
+        self.lib_song.grid(column=1, row=1)
+        lib_song_rn_lbl = Label(tab3, text= 'Rename to:')
+        lib_song_rn_lbl.grid(column=0, row=2)
+        self.lib_song_rn = Entry(tab3, width=32)
+        self.lib_song_rn.grid(column=1, row=2)
+        lib_song_rn_btn = Button(tab3, text="Rename Song", command=self.rename_song)
+        lib_song_rn_btn.grid(column=2, row=2)
+        lib_song_dlt_lbl = Label(tab3, text= 'Delete song:')
+        lib_song_dlt_lbl.grid(column=0, row=3)
+        lib_song_dlt_btn = Button(tab3, text="Delete Song", command=self.delete_song)
+        lib_song_dlt_btn.grid(column=1, row=3)
+
+        pl_manage_lbl = Label(tab3, text= '-------- Manage Playlists --------')
+        pl_manage_lbl.grid(column=0, row=4, columnspan=3, pady=5)
+        pl_pl_lbl = Label(tab3, text= 'For playlist:')
+        pl_pl_lbl.grid(column=0, row=5)
+        self.pl_pl = ttk.Combobox(tab3, state="readonly", width=32)
+        self.pl_pl['values'] = tuple([x[:-4] for x in os.listdir(os.path.join(self.code_directory, self.playlist_folder)) if len(x) > 4 and x[-4:] == '.txt' and x != 'all.txt'])
+        self.pl_pl.grid(column=1, row=5)
+        self.pl_pl.bind("<<ComboboxSelected>>", self.pl_sel_update)
+        pl_pl_rn_lbl = Label(tab3, text= 'Rename to:')
+        pl_pl_rn_lbl.grid(column=0, row=6)
+        self.pl_pl_rn = Entry(tab3, width=32)
+        self.pl_pl_rn.grid(column=1, row=6)
+        pl_pl_rn_btn = Button(tab3, text="Rename Playlist", command=self.rename_playlist)
+        pl_pl_rn_btn.grid(column=2, row=6)
+        pl_pl_dlt_lbl = Label(tab3, text= 'Delete Playlist:')
+        pl_pl_dlt_lbl.grid(column=0, row=7)
+        pl_pl_dlt_btn = Button(tab3, text="Delete Playlist", command=self.delete_playlist)
+        pl_pl_dlt_btn.grid(column=1, row=7)
+        pl_merge_lbl = Label(tab3, text= 'Merge into:')
+        pl_merge_lbl.grid(column=0, row=8)
+        self.pl_merge = ttk.Combobox(tab3, state="readonly", width=32)
+        self.pl_merge['values'] = tuple([x[:-4] for x in os.listdir(os.path.join(self.code_directory, self.playlist_folder)) if len(x) > 4 and x[-4:] == '.txt' and x != 'all.txt'])
+        self.pl_merge.grid(column=1, row=8)
+        pl_merge_btn = Button(tab3, text="Merge Playlists", command=self.merge_playlists)
+        pl_merge_btn.grid(column=2, row=8)
+        pl_add_song_lbl = Label(tab3, text= 'Add song:')
+        pl_add_song_lbl.grid(column=0, row=9)
+        self.pl_add_song = ttk.Combobox(tab3, state="readonly", width=32)
+        self.pl_add_song['values'] = self.read_songs()
+        self.pl_add_song.grid(column=1, row=9)
+        pl_add_song_btn = Button(tab3, text="Add Song", command=self.add_song)
+        pl_add_song_btn.grid(column=2, row=9)
+        pl_rm_song_lbl = Label(tab3, text= 'Remove song:')
+        pl_rm_song_lbl.grid(column=0, row=10)
+        self.pl_rm_song = ttk.Combobox(tab3, state="readonly", width=32)
+        self.pl_rm_song['values'] = self.read_songs()
+        self.pl_rm_song.grid(column=1, row=10)
+        pl_rm_song_btn = Button(tab3, text="Remove Song", command=self.remove_song)
+        pl_rm_song_btn.grid(column=2, row=10)
+        pl_create_lbl = Label(tab3, text= 'New Playlist:')
+        pl_create_lbl.grid(column=0, row=11)
+        self.pl_create = Entry(tab3, width=32)
+        self.pl_create.grid(column=1, row=11)
+        pl_create_btn = Button(tab3, text="Create Playlist", command=self.create_playlist)
+        pl_create_btn.grid(column=2, row=11)
+        pl_changes_lbl = Label(tab3, text= 'Slated Changes:')
+        pl_changes_lbl.grid(column=0, row=12)
+        self.pl_changes = scrolledtext.ScrolledText(tab3, width=50, height=5)
+        self.pl_changes.grid(column=1, row=12, columnspan=2, pady=5)
+        undo_btn = Button(tab3, text="Undo", command=self.undo)
+        undo_btn.grid(column=0, row=13)
+        perform_btn = Button(tab3, text="Perform Changes (Occurs Automatically on App Exit)", command=self.perform_changes)
+        perform_btn.grid(column=1, row=13, columnspan=2)
 
         tab_control.pack(expand=1, fill='both')
         window.protocol("WM_DELETE_WINDOW", self.on_closing)
@@ -308,6 +365,57 @@ class App:
         self.append_playlist.current(0)
         self.name_label.grid_forget()
         self.new_playlist_name.grid_forget()
+
+    # Music management
+
+    def rename_song(self):
+        self.slated_changes.append(("Rename song {} to {}".format(self.lib_song.get(), self.lib_song_rn.get()), "SONG", "RENAME", self.lib_song.get(), self.lib_song_rn.get()))
+        self.update_changes()
+
+    def delete_song(self):
+        self.slated_changes.append(("Delete song {}".format(self.lib_song.get()), "SONG", "DELETE", self.lib_song.get()))
+        self.update_changes()
+
+    def rename_playlist(self):
+        self.slated_changes.append(("Rename playlist {} to {}".format(self.pl_pl.get(), self.pl_pl_rn.get()), "PLAYLIST", "RENAME", self.pl_pl.get(), self.pl_pl_rn.get()))
+        self.update_changes()
+
+    def delete_playlist(self):
+        self.slated_changes.append(("Delete playlist {}".format(self.pl_pl.get()), "PLAYLIST", "DELETE", self.pl_pl.get()))
+        self.update_changes()
+
+    def merge_playlists(self):
+        self.slated_changes.append(("Merge playlist {} into {}".format(self.pl_pl.get(), self.pl_merge.get()), "PLAYLIST", "MERGE", self.pl_pl.get(), self.pl_merge.get()))
+        self.update_changes()
+
+    def add_song(self):
+        self.slated_changes.append(("Add song {} to playlist {}".format(self.pl_add_song.get(), self.pl_pl.get()), "PLAYLIST", "ADD", self.pl_pl.get(), self.pl_add_song.get()))
+        self.update_changes()
+
+    def remove_song(self):
+        self.slated_changes.append(("Remove song {} from playlist {}".format(self.pl_rm_song.get(), self.pl_pl.get()), "PLAYLIST", "REMOVE", self.pl_pl.get(), self.pl_rm_song.get()))
+        self.update_changes()
+
+    def create_playlist(self):
+        self.slated_changes.append(("Create new playlist {}".format(self.pl_create.get()), "PLAYLIST", "CREATE", self.pl_create.get()))
+        self.update_changes()
+
+    def undo(self):
+        if len(self.slated_changes) > 0:
+            self.slated_changes.pop()
+            self.update_changes()
+
+    def perform_changes(self):
+        self.slated_changes = []
+        self.update_changes()
+
+    def update_changes(self):
+        update_string = "\n".join([x[0] for x in self.slated_changes])
+        self.pl_changes.delete('1.0', END)
+        self.pl_changes.insert(INSERT, update_string)
+
+    def pl_sel_update(self, event):
+        self.pl_rm_song['values'] = self.read_songs(self.pl_pl.get() + ".txt")
 
 if __name__ == '__main__':
     directory = sys.argv[1]
