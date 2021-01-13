@@ -114,8 +114,9 @@ def download_tracks(playlist, directory, dir_base, folder, list_name, log_str=""
             slash_point = trackName.find("\\")
         print("({}/{}) Downloading: {}".format(track_count_on, track_count, trackName))
         if videoId is not None:
+            trackName_ext = trackName[:-3] + "%(ext)s"
             music_url = 'https://music.youtube.com/watch?v=' + videoId
-            results = subprocess.run(['youtube-dl', '-x', '-q', '--audio-format', 'mp3', '--output', trackName, music_url], cwd=directory, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            results = subprocess.run(['youtube-dl', '-x', '-q', '--audio-format', 'mp3', '--output', trackName_ext, music_url], cwd=directory, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             output_log = results.stdout.decode('utf-8') + results.stderr.decode('utf-8')
             if (len(output_log) > 0):
                 error_msg = "ERROR while downloading {}".format(trackName)
