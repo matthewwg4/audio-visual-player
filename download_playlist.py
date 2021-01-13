@@ -87,10 +87,6 @@ def download_tracks(playlist, directory, dir_base, folder, list_name, log_str=""
     track_count = len(playlist['tracks'])
     track_count_on = 1 # sys.stdout.write('\r%d%%' % x) sys.stdout.flush() prints x%
 
-    print(list_name)
-    print(append_pl)
-    time.sleep(100)
-
     log_str_pre_len = len(log_str)
     log_str += "--- WHILE DOWNLOADING PLAYLIST ---\n"
     log_str_orig_len = len(log_str)
