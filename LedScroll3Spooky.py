@@ -12,7 +12,7 @@ class LEDLights:
     def __init__(self, code_directory, smoothing=0, sample_per=0.04):
 
         self.serial = SerialCommunicator()
-        self.runner = AudioVisualRunner(code_directory, smoothing=smoothing)
+        self.runner = AudioVisualRunner(code_directory, smoothing=smoothing, get_midpoint=True)
 
         self.curr_color = 0
         self.sample_per = sample_per

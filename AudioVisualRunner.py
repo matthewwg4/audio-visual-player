@@ -8,25 +8,18 @@ from AudioAnalyzer import AudioAnalyzer
 
 class AudioVisualRunner:
 
-    def __init__(self, code_directory, freq_groups, songs_file="songs.txt", queue_file="queue.txt", smoothing=0, db_range_reduce=None, get_midpoint=False):
-
-        if len(freq_groups) > 1 and get_midpoint:
-            print('get_midpoint cannot be True when more than one frequency group\n' +
-                    'setting get_midpoint to False')
-            get_midpoint = False
+    def __init__(self, code_directory, songs_file="songs.txt", queue_file="queue.txt", smoothing=0, db_range_reduce=None, get_midpoint=False):
 
         self.songs_file = os.path.join(code_directory, songs_file)
         self.queue_file = os.path.join(code_directory, queue_file)
         self.songs_folder = os.path.join(code_directory, "songs")
         self.data_folder = os.path.join(code_directory, "songs-data")
-        self.freq_groups = freq_groups
-        self.ranges = len(freq_groups)
         self.min = -100
         self.max = 0
-        self.db_range_reduce = db_range_reduce if db_range_reduce != None else 0.0002/self.ranges
+        self.db_range_reduce = db_range_reduce if db_range_reduce != None else 0.0002
         self.analyzer = None
         self.smoothing = smoothing
-        self.last_decibels = [-100] * self.ranges
+        self.last_decibels = [-100]
         self.current_song = None
         self.start_time = 0
         self.last_time = 0
@@ -45,12 +38,12 @@ class AudioVisualRunner:
             self.current_song.stop()
         song_path, data_path = self.nextSongName()
 
-        self.analyzer = AudioAnalyzer(self.freq_groups)
+        self.analyzer = AudioAnalyzer()
         self.analyzer.load(data_path)
 
         self.min = -100
         self.max = 0
-        self.last_decibels = [-100] * self.ranges
+        self.last_decibels = [-100]
 
         self.current_song = vlc.MediaPlayer(song_path)
         self.current_song.play()
@@ -78,7 +71,7 @@ class AudioVisualRunner:
             decibels = self.analyzer.get_decibels(total_time, song_time)
         proportions = []
 
-        for i in range(self.ranges):
+        for i in range(1):
             decibels[i] = (1-self.smoothing)*decibels[i] + self.smoothing*self.last_decibels[i]
             db_range = self.max-self.min
             if decibels[i] < self.min + db_range * self.db_range_reduce:
